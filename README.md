@@ -3,9 +3,9 @@
 
 # one-page-website-portfolio
 
----------------------------
+
 ## Description
-It is my first project where I am learning how to use CSS and HTML. No biggy but first baby steps are very important to achieve something really big and that's what I'm trying to do. This website will be like a buisness card, so I will probably work on it all the time. Never ending-story which is very motivating when it grows.
+It is my first project where I am learning how to use CSS and HTML. No biggy but first baby steps are very important to achieve something really big and that's what I'm trying to do. This website will be like a business card, so I will probably work on it all the time. Never ending-story which is very motivating when it grows.
 
 ## Built with
 * HTML5
