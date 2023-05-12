@@ -18,21 +18,6 @@ It is my first project where I am learning how to use CSS and HTML. No biggy, bu
 * CSS3
 * JavaScript ES6+
 
-## Still to-do
--all html build,
--menu - home, portfolio, CV, blog, contact,
--layout of components in CSS (RWD),
--menu on bottom(home screen) with scrolling stick on top of browser,
--visual concept of home screen - left side of header is hiding with scrolling down and right header is expands,
--portfolio gallery with good visual effect,
--contact form (JS),
--counter - of projects completed, passion level(showed in wifi-way), website ideas, technologies I worked with,
--CV display (pop-out window),
--possibility of downloading CV in PDF (download button),
--light/dark website option,
--ang/pl website option,
--update data and site development
-
 ## Website link
 In progress 
 
