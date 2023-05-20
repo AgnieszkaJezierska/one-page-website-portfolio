@@ -5,18 +5,26 @@
 
 
 ## Description
-It is my first project where I am learning how to use CSS and HTML. No biggy, but first baby steps are very important to achieve something really big and that's what I'm trying to do. This website will be like a business card, so I will probably work on it all the time. Never ending-story which is very motivating when it grows.
+It is my small project where I am still trying to learn create websites and also I want to present myself to others. You can get me know, see what I already know and contact me if you wish. This website will be like a business card, so I will probably update it all the time. Never ending-story which motivates me when it grows.
 
-## Features
+## General Information
 - presenting myself,
 - showing what I already know and what I want to learn,
 - showing my projects I've already made,
 - possibility to contant me
 
+## Features
+-
+-
+-
+
 ## Built with
 * HTML5
 * CSS3
 * JavaScript ES6+
+
+## Project Status
+Project is: in progress
 
 ## Website link
 In progress 
