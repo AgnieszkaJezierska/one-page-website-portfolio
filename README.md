@@ -1,7 +1,7 @@
 (screenshot of ready website will be here)
 
 
-# website-portfolio
+# website - MyPortfolio
 
 
 ## Description
