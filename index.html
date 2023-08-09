@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--icon-->
-    <link rel="icon" href="./img/working_on_it.jpg" type="img/logo">
+    <link rel="icon" href="./img/web-icon.png" type="website icon">
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,27 +19,27 @@
     <!--pod koniec projektu dać odpowiednią nazwę strony - imię i nazwisko-->
     <title>John Kovalsky</title>
 </head>
- 
+
 <body>
     <header>
-        <div class="header_news"></div>
-        <div class="header_main"></div>
+        <div class="header-news"></div>
+        <div class="header-main"></div>
     </header>
-    <nav>
+    <nav class="nav">
         <ul>
-            <li><img src="./img/menu/home.png" alt="Homepage"></li>
-            <li>o mnie</li>
-            <li>blog</li>
-            <li>projekty</li>
-            <li>cv</li>
-            <li>kontakt</li>
-            <li><img src="./img/menu/bulb-off.png" alt="Light mode"></li>
-            <li><img src="./img/menu/poland-flag-icon.png" alt="Polish flag"><img src="./img/menu/toggle-left.svg"
-                    alt="Language select"><img src="./img/menu/united-kingdom-flag-icon.png" alt="United Kingdom flag">
+            <li class="nav-item"><a href="#">home</a></li>
+            <li class="nav-item"><a href="#">projekty</a></li>
+            <li class="nav-item"><a href="#">blog</a></li>
+            <li class="nav-item"><a href="#">cv</a></li>
+            <li class="nav-item"><a href="#">kontakt</a></li>
+            <!--TODO zrobić aby jedna flaga się wyszarzała, kiedy druga jest aktywna adekwatnie do włączonego jezyka strony -->
+            <li class="nav-item"><img src="./img/menu/poland-flag-icon.png" alt="Polish flag"><img src="./img/menu/united-kingdom-flag-icon.png" alt="United Kingdom flag">
             </li>
+            <!--TODO wymyśleć jak wizualnie ma się to prezentować - żarówka on/off? switch on/off? inaczej?-->
+            <li class="nav-item"><img src="./img/menu/bulb-filled.png" alt="Light mode"></li>
         </ul>
     </nav>
-    <section class="about_me">
+    <section class="about-me">
 
     </section>
     <section class="skills">
@@ -51,7 +51,10 @@
     <section class="contact">
 
     </section>
-    <footer></footer>
+    <footer>
+        <a href="https://www.flaticon.com/free-icons/signpost" title="signpost icons">Signpost icons created by
+            Graphix's Art - Flaticon</a>
+    </footer>
 </body>
 
 </html>
