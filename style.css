@@ -34,6 +34,7 @@ body {
 .nav-item img {       
 margin-right: 15px;                           
 height: 20px;
+border-radius: 5px;
 }
 
 .nav-item a:hover {
