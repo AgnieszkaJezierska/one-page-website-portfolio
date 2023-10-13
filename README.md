@@ -5,7 +5,7 @@
 
 
 ## Description
-It is my small project where I am still trying to learn create websites and also I want to present myself to others. You can get me know, see what I already know and contact me if you wish. This website will be like a business card, so I will probably update it all the time. Never ending-story which motivates me when it grows.
+It's my tiny project where I am still learning how to create websites and at the same time I want to present myself to others. Typical move for a novice ;) You can get me know, see what I already know and contact me if you wish. This website will be like a business card, so I will probably update it all the time. Never ending-story which motivates me when it grows.
 
 ## General Information
 - presenting myself,
