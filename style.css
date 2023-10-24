@@ -8,35 +8,3 @@ body {
 	font-family: 'Chakra Petch', sans-serif;
 }
 
-.nav {
-	height: 50px;
-	background-color: #333;
-	text-align: center;
-	line-height: 50px;
-	font-style: 0; /*usuwam domyslne przerwy pomiedzy li*/
-}
-
-.nav-item {
-	display:inline-block;
-}
-
-.nav-item a {
-	padding: 0 50px;
-	color: #fff;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-style: 16px; /*usuwam domyslne przerwy pomiedzy li*/
-	letter-spacing: 2px;
-	transition: color 0.3s;
-}
-
-.nav-item img {       
-margin-right: 15px;                           
-height: 20px;
-border-radius: 5px;
-}
-
-.nav-item a:hover {
-	color: #0086f3;
-}
