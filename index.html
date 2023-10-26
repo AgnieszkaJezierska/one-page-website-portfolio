@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Hello, World! Agnieszka on the board and I am doing my best to become Fullstack Developer. Check my portfolio and contact me or leave the feedback!">
+    <meta name="description"
+        content="Hello, World! Agnieszka on the board and I am doing my best to become Fullstack Developer. Check my portfolio and contact me or leave the feedback!">
     <meta name="keywords"
         content="IT, programowanie, programming, junior, beginner, CV, resume, junior developer, junior web developer, frontend, backend, front-end, back-end, fullstack, javascript, HTML, CSS, portfolio, wizytówka, code, coding, pisanie kodu, lookingforjob, job, work, looking, 2023">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,55 +25,140 @@
 <body>
     <!-- w headerze zrobić wybór języków? czy tylko ang -->
     <!--TODO zrobić aby jedna flaga się wyszarzała, kiedy druga jest aktywna adekwatnie do włączonego jezyka strony -->
-    
-    
-    
+
+
+
+    <nav class="nav">
+        <a class="nav-brand" href="#home"> &lt;jeska/&gt; </a>
         <div class="burger-btn">
             <div class="burger-btn__box">
                 <div class="burger-btn__bars"></div>
             </div>
         </div>
-        <nav class="nav">
-            <a class="nav-brand" href="#home">.jeska</a>
-            <div class="nav-links">
-                <a class="nav-link" href="#about">about()</a>
-                <a class="nav-link" href="#portfolio">projects()</a>
-                <a class="nav-link" href="#">blog()</a>
-                <a class="nav-link" href="#">resume()</a>
-                <a class="nav-link" href="#contact">contact()</a>
-                <!--TODO wymyśleć jak wizualnie ma się to prezentować - żarówka on/off? toggle on/off? inaczej?-->
-                
-            </div>
-        </nav>
+        <div class="nav-links">
+            <a class="nav-link" href="#about">about()</a>
+            <a class="nav-link" href="#portfolio">projects()</a>
+            <a class="nav-link" href="#">blog()</a>
+            <a class="nav-link" href="#">resume()</a>
+            <a class="nav-link" href="#contact">contact()</a>
+            <!--TODO wymyśleć jak wizualnie ma się to prezentować - żarówka on/off? toggle on/off? inaczej?-->
+
+        </div>
+    </nav>
 
 
     <header>
-        <div class="hero-side"></div> <!-- hero-side ma się schować i zakładka do ponownego otwarcia ma byc sticky -->
         <div class="hero-img" id="home">
             <div class="hero-text">
-                <h1>Hey, Agnieszka here! <br>I would like to</h1>
-                <p class="hero-text-move"> [ be your employee ]</p> <!-- start as Frontend Developer, be Fullstack Developer, create breathtaking websites, share -->
+                <p>Hey, Agnieszka here! <br><span>I would like to</span></p>
+                <h1 class="hero-text-move"> [ start as Frontend Developer ]</h1>
+                <!-- be your employee, become Fullstack Developer, create breathtaking websites and apps!, get know more technologies -->
             </div>
             <div class="hero-shadow"></div>
         </div>
     </header>
 
+    <aside class="blog-info">
+        <!-- aside ma się schować i zakładka do ponownego otwarcia ma byc sticky lewa strona-->
+    </aside>
 
-    <section class="about-me">
 
+    <section class="abt-me" id="about">
+        <div class="container">
+            <div class="abt-me__text">
+                <div class="text-title">
+                    <h2>#about</h2>
+                    <div class="text-title__line"></div>
+                </div>
+                <div class="abt-me__text--short">
+                    <p>Shortly, I discovered coding by accident and I knew, it's love from the
+                        first sight! I found in programming a lot of joy by spending my time with nose into the code. My
+                        patience is helping me with solving code issues and hunger of knowledge is pushing me foward. I
+                        enjoy creating things that live on the internet, whather that be websites, applications or even
+                        games 2D. My goal is to become Fullstack Developer. <br> <br>
+                    </p>
+                    <button class="abt-me__btn">Read more...</button>
+                    <div class="abt-me__quoter"><!--TODO dodać cos od siebie albo dodać ciekawy cytat?--></div>
+                </div>
+                <div class="abt-me__text--long">
+                    <p>One day I was scribbling on paper my acctual status of raw materials in
+                        my carpentry workshop and then I had an idea - I need a program for that! And yeah... I wanted
+                        to do
+                        it on my own, so I tried... Code an ERP system isn't easy to do, even a tiny one, so I start
+                        with
+                        baby steps and I started to like it more and more. So I was keep reading, watching tutorials or
+                        listening podcasts and trying to code more challenging ideas.
+                    </p>
+                    <p>
+                        I've lost with my future live plan, my dream job wasn't so obvious on start. I was searching it
+                        for
+                        so long, but finally I found something I truly want to do and I'm getting satisfaction from it.
+                        I
+                        could be logistician, be an architect or even an artist, but as a programmer I can work and help
+                        in
+                        any categories! It's flexible enough to gain knowledge on any field. Now my dream is clear and
+                        someday I will be Fullstack Developer.
+                    </p>
+                    <button class="abt-me__btn">Read less...</button>
+                </div>
+            </div>
+            <div class="abt-me__img"></div>
+        </div>
     </section>
-    <section class="skills">
 
-    </section>
-    <section class="portfolio">
 
-    </section>
-    <section class="contact">
+    <!-- <section class="skills">
+        <div class="container">
+            <div class="text-title">
+                <h2>#skills</h2>
+                <div class="text-title__line"></div>
+            </div>
+            <div class="skills-list">
+                <div class="skills-use">
+                    <h3>I use everyday</h3>
+                </div>
+                <div class="skills-know">
+                    <h3>I barely know</h3>
+                </div>
+                <div class="skills-learn">
+                    <h3>I want to learn</h3>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
-    </section>
+
+    <!-- <section class="hobby">
+        <div class="text-title">
+            <h2>#hobby</h2>
+            <div class="text-title__line"></div>
+        </div>
+    </section> -->
+
+
+    <!-- <section class="counter">
+    </section> -->
+
+
+    <!-- <section class="portfolio" id="portfolio">
+        <div class="text-title">
+            <h2>#portfolio</h2>
+            <div class="text-title__line"></div>
+        </div>
+    </section> -->
+
+
+    <!-- <section class="contact" id="contact">
+        <div class="text-title">
+            <h2>#contact</h2>
+            <div class="text-title__line"></div>
+        </div>
+    </section> -->
+
+
     <footer>
-        
     </footer>
+
 </body>
 
 </html>
