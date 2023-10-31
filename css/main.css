@@ -25,7 +25,7 @@ body {
   background: none;
   border: 1px solid transparent;
   cursor: pointer;
-  z-index: 100;
+  z-index: 1000;
 }
 .burger-btn:focus {
   outline: none;
