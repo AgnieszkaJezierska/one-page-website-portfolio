@@ -18,16 +18,10 @@
     <script src="https://kit.fontawesome.com/3a9bce90f4.js" crossorigin="anonymous"></script>
     <!--css-->
     <link rel="stylesheet" href="./css/main.css">
-    <!--pod koniec projektu dać odpowiednią nazwę strony - imię i nazwisko-->
-    <title>MyPortfolio</title>
+    <title>Jeska Portfolio</title>
 </head>
 
 <body>
-    <!-- w headerze zrobić wybór języków? czy tylko ang -->
-    <!--TODO zrobić aby jedna flaga się wyszarzała, kiedy druga jest aktywna adekwatnie do włączonego jezyka strony -->
-
-
-
     <nav class="nav">
         <a class="nav-brand" href="#home"> &lt;jeska/&gt; </a>
         <div class="burger-btn">
@@ -42,38 +36,59 @@
             <a class="nav-link" href="#">resume()</a>
             <a class="nav-link" href="#contact">contact()</a>
             <!--TODO wymyśleć jak wizualnie ma się to prezentować - żarówka on/off? toggle on/off? inaczej?-->
-
+        </div>
+        <div class="nav-media">
+            <hr>
+            <a href="#"><img src="./img/social/brand-facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="./img/social/brand-linkedin.png" alt="Linkedin"></a>
+            <a href="#"><img src="./img/social/brand-github-filled.png" alt="Github"></a>
+            <a href="#"><img src="./img/social/brand-gmail.png" alt="Gmail"></a>
         </div>
     </nav>
 
 
+    <aside class="aside">
+        <div class="aside-news">
+            <div class="aside-news__img"></div>
+            <div class="aside-news__text">
+                <h3>tytuł artykułu</h3>
+                <p>krótki opis artykułu, zachęcający do przeczytania lub opisujący co w artykule zawarte</p>
+                <hr>
+                <p><span>data wstawienia artykułu</span></p>
+            </div>
+            <div class="aside-news__box">
+                <div class="aside-news__img"></div>
+                <div class="aside-news__text">
+                    <h3>tytuł artykułu</h3>
+                    <p>krótki opis artykułu, zachęcający do przeczytania lub opisujący co w artykule zawarte</p>
+                    <hr>
+                    <p><span>data wstawienia artykułu</span></p>
+                </div>
+            </div>
+            <div class="aside-news__box">
+                <div class="aside-news__img"></div>
+                <div class="aside-news__text">
+                    <h3>tytuł artykułu</h3>
+                    <p>krótki opis artykułu, zachęcający do przeczytania lub opisujący co w artykule zawarte</p>
+                    <hr>
+                    <p><span>data wstawienia artykułu</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="aside-media">
+            <hr>
+            <a href="#"><img src="./img/social/brand-facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="./img/social/brand-linkedin.png" alt="Linkedin"></a>
+            <a href="#"><img src="./img/social/brand-github-filled.png" alt="Github"></a>
+            <a href="#"><img src="./img/social/brand-gmail.png" alt="Gmail"></a>
+        </div>
+    </aside>
+
+
     <header>
-        <!-- <div class="aside-news">
-            <div class="aside-news__box">
-                <div class="aside-news__box-img"></div>
-                <div class="aside-news__box-text">
-                    <h3>tytuł artykułu</h3>
-                    <p>krótki opis artykułu, zachęcający do przeczytania lub opisujący co w artykule zawarte</p>
-                </div>
-            </div>
-            <div class="aside-news__box">
-                <div class="aside-news__box-img"></div>
-                <div class="aside-news__box-text">
-                    <h3>tytuł artykułu</h3>
-                    <p>krótki opis artykułu, zachęcający do przeczytania lub opisujący co w artykule zawarte</p>
-                </div>
-            </div>
-            <div class="aside-news__box">
-                <div class="aside-news__box-img"></div>
-                <div class="aside-news__box-text">
-                    <h3>tytuł artykułu</h3>
-                    <p>krótki opis artykułu, zachęcający do przeczytania lub opisujący co w artykule zawarte</p>
-                </div>
-            </div>
-        </div> -->
         <div class="hero hero-img" id="home">
             <div class="hero-text">
-                <p>Hello there! </p>
+                <p>Hello there!</p>
                 <p><span>My name is Agnes and I would like to</span></p>
                 <h1 class="hero-text-move"> [ start as Frontend Developer ]</h1>
                 <!-- be your employee, become Fullstack Developer, create breathtaking websites and apps!, get know more technologies -->
@@ -91,37 +106,37 @@
                     <div class="text-title__line"></div>
                 </div>
                 <div class="abt-me__text--short">
-                    <p>Shortly, I discovered coding by accident and then I knew, it was love from the
-                        first sight! I found in programming a lot of joy by spending my time with nose into the code. My
-                        patience is helping me with solving code issues and hunger of knowledge is pushing me foward. I
-                        enjoy creating things that live on the internet, whather that be websites, applications or even
-                        games 2D. My goal is to become Fullstack Developer. <br> <br>
+                    <p>I'm like a JavaScript superhero, clad in Tailwind and Bootstrap. Frontend is my kung-fu, but it's
+                        time to go for backend training and become a full-stack ninja developer. The backend is like a
+                        magical jutsu whose secrets I want to learn. I'm preparing for this challenge with passion and
+                        unbridled humour. <br><br>When the backend screams "ERROR!" I respond "Try-catch"! I am ready
+                        for code adventure that brings full-blown creative madness and a pinch of laughter. Let's code
+                        the world! 💻🚀😄
                     </p>
                     <button class="abt-me__btn">Read more...</button>
                     <div class="abt-me__quoter"><!--TODO dodać ciekawy cytat?-->
-                        <p><Span>"</Span>intrasting quote <span>"</span></p>
+                        "</span>What pushes us to try new things is not logic or reason...<br> but hope and
+                        dreams, heart and the inner voice.</span>"</p>
                     </div>
                 </div>
                 <div class="abt-me__text--long">
-                    <p>One day I was scribbling on paper my acctual status of raw materials in
-                        my carpentry workshop and then I had an idea - I need a program for that! And yeah... I wanted
-                        to do
-                        it on my own, so I tried... Code an ERP system isn't easy to do, even a tiny one, so I started
-                        with
-                        baby steps and over time coding became more and more enjoyable. So I was keep reading, watching
-                        tutorials or
-                        listening podcasts and trying to code more challenging ideas.
+                    <p>One fine day, I was scribbling down my carpentry workshop's inventory on a random piece of paper,
+                        and then it hit me - I need a program for this madness! And so, I decided to embark on the
+                        adventure of coding my very own ERP system. And it wasn't a walk in the park, not even a tiny
+                        stroll! </p>
+                    <p>So, I took baby steps, almost like I was learning to crawl in the world of coding. I found myself
+                        diving into a sea of books, watching tutorials that felt like they were explaining quantum
+                        physics, and even tuning into coding podcasts that spoke in some secret language.. I was trying
+                        to tackle more challenging ideas, and gradually, coding became more and more fun.
                     </p>
-                    <p>
-                        I've lost with my future live plan, my dream job wasn't so obvious on start. I was searching it
-                        for
-                        so long, but finally I found something I truly want to do and I'm getting satisfaction from it.
-                        I
-                        could be logistician, be an architect or even an artist, but as a programmer I can work and help
-                        in
-                        any categories! It's flexible enough to gain knowledge on any field. Now my dream is clear and
-                        someday I will be Fullstack Developer.
+                    <p>Back when I was young (which feels like eons ago), I was a bit like a lost puppy in a maze of
+                        future career plans. I had no idea who I wanted to be when I grew up. I searched high and low,
+                        but eventually, I stumbled upon something that truly lit a fire in me.
                     </p>
+                    <p>I mean, sure, I could've been a logistician, an architect, or even a hipster artist sipping soy
+                        lattes at a trendy cafe, but as a programmer, I discovered I could work in any field. It's a
+                        flexible world where you can gain knowledge in just about any category. Now, my dream is crystal
+                        clear, and one day, mark my words, I'll be a Fullstack Developer!</p>
                     <button class="abt-me__btn">Read less...</button>
                 </div>
             </div>
@@ -130,71 +145,91 @@
     </section>
 
 
-    <!-- <section class="skills">
+    <section class="skills">
         <div class="wrapper">
             <div class="text-title">
                 <h2>#Skills</h2>
                 <div class="text-title__line"></div>
             </div>
-            <div class="skills-tech">
-                <h3>Technologies</h3>
-                <div class="skills-tech__list>
-                    <div class="skills-tech__list-know">
-                        <h3>I know and use</h3>
+            <div class="skills-boxes">
+                <div class="skills-boxes__tech">
+                    <h3>Technologies:</h3>
+                    <div class="skills-boxes__tech-list">
+                        <p>I know and use</p>
+                        <div class="tech-imgs"></div>
                     </div>
-                    <div class="skills-tech__list-familiar">
-                        <h3>I am familiar with</h3>
+                    <div class="skills-boxes__tech-list">
+                        <p>I am familiar with</p>
+                        <div class="tech-imgs"></div>
                     </div>
-                    <div class="skills-tech__list-learn">
-                        <h3>I want to learn</h3>
+                    <div class="skills-boxes__tech-list">
+                        <p>I want to learn</p>
+                        <div class="tech-imgs"></div>
                     </div>
                 </div>
-            </div>
-            <div class="skills-soft">
-                <h3>Soft skills</h3>
-                    <ul></ul>
+                <div class="skills-boxes__soft">
+                    <h3>Soft skills:</h3>
+                    <ul>
+                        <li>communicative person</li>
+                        <li>accuracy and insight with curiosity</li>
+                        <li>perseverance in the face of a problem</li>
+                        <li>analytical thinking</li>
+                        <li>the artist's soul</li>
+                        <li>willingness to learn new things</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
 
     <section class="hobby">
-       <div class="wrapper">
-        <div class="text-title">
-            <h2>#hobby</h2>
-            <div class="text-title__line"></div>
-        </div>
-        <div class="hobby-box">
-            <div class="hobby-box__img"></div>
-            <div class="hobby-box__text">
-                <h3>Carpentry</h3>
-                <p>Since I can remember I always loved smell of wood after cutting, but my journey with carpentry
-                    started few years ago. Self-taught with pure respect for raw wood. Love to spend my free time with
-                    no presure, where I can create somthing amezing. Drawing the project and then calculating the
-                    measures, that's nothing when something is going wrong and you have to thing about alternates. I
-                    love it!</p>
+        <div class="wrapper">
+            <div class="text-title">
+                <h2>#hobby</h2>
+                <div class="text-title__line"></div>
+            </div>
+            <div class="hobby-box">
+                <div class="hobby-box__img"></div>
+                <div class="hobby-box__text">
+                    <h3>Carpentry</h3>
+                    <p>I've been absolutely smitten with the sweet scent of freshly cut wood. But my foray into the
+                        world of carpentry is a bit like the plot twist in a Hollywood movie - it didn't happen until a
+                        few years back.<br><br>
+                        I'm a self-taught wood whisperer with an undying reverence for the raw, unadulterated beauty of
+                        timber. I relish the moments when I can kick back without any pressure, unleashing my inner
+                        carpentry ideas. First, there's the thrill of sketching out a project on a piece of paper, and
+                        then it's time for the grand finale - calculating the measurements. But let me tell you, that's
+                        just the warm-up act. The real fun begins when something inevitably goes awry, and you're
+                        suddenly thrown into a whirlwind of alternative solutions. And you know what? I absolutely
+                        thrive on it!</p>
+                </div>
+            </div>
+            <div class="hobby-box">
+                <div class="hobby-box__img"></div>
+                <div class="hobby-box__text">
+                    <h3>Trekking</h3>
+                    <p>I am the person who like to clean her head and let the stress go away. And you know what my
+                        secret weapon is?<br><br>Walking and watching the coolest places what naure can bring. Before
+                        you can witness the spectacle, you've got to negotiate a hostage exchange with your leg muscles,
+                        who demand a significant ransom in the form of effort. It's like striking a deal - "We'll climb,
+                        but you better deliver the goods!" And what goods they are! <br><br>When you finally conquer
+                        that mountain, you're greeted with a refreshing breeze and a view that could make even your
+                        wildest dreams blush. It's like hitting the "refresh" button on your brain while treating your
+                        senses to a visual feast.
+
+                    </p>
+                </div>
+            </div>
+            <div class="hobby-box">
+                <div class="hobby-box__img"></div>
+                <div class="hobby-box__text">
+                    <h3>Bicycle</h3>
+                    <p>If I can't aford for trekking trip, I spend time on bike. I explore whole area where is no rush or where the only thing racing is my heart rate when I spot an unexpected pothole.<br><br>
+                    Love to watch changes in villages and explore new roads by getting lost - well... it happends sometimes. <br><br>Here's the deal: I won't move from home, if I know I won't do minimum 30km on wheels.</p>
+                </div>
             </div>
         </div>
-        <div class="hobby-box">
-            <div class="hobby-box__img"></div>
-            <div class="hobby-box__text">
-                <h3>Trekking</h3>
-                <p>I am the person who like to clean her head and let the stress go away. I found perfect way for that!
-                    Walking and watching the coolest places what naure can bring. Before you can see it, you have to
-                    force your muscles for huge effort, but the view will give you all back! That's really satisfying,
-                    when you reach the top of mountain and feel the fresh air with the best view you can imagine.</p>
-            </div>
-        </div>
-        <div class="hobby-box">
-            <div class="hobby-box__img"></div>
-            <div class="hobby-box__text">
-                <h3>Bicycle</h3>
-                <p>If I can't aford for trekking trip, I spend time on bike. I explore whole area where is no rush. Love
-                    to watch changes in villages and explore new roads by getting lost - well... it happends sometimes.
-                    I won't move from home, if I know I won't do minimum 30km on wheels. </p>
-            </div>
-        </div>
-       </div>
     </section>
 
 

@@ -1,23 +1,22 @@
 
 
 Co do zrobienia:
-- cała budowa HTML (menu - home, portfolio, CV, blog, contact, język, dark/light mode) note: pamiętać o ikonkach portali społecznościowych(facebook, github, linkedin, mail),
-- CSS rozmieszczenie i wizualizacja - kolorystyka strony: czarny i musztardowy, oraz biały i musztardowy (może zamiast musztardy jasny niebieski??? lub pomarańcz???),
+- cała budowa HTML (menu - logo - <jeska/> oraz nav - about(), projects(), blog(), resume(), contact(), dark/light mode) note: pamiętać o ikonkach portali społecznościowych w headerze(facebook, github, linkedin, mail),
+- CSS rozmieszczenie i wizualizacja - kolorystyka strony: czarny i niebieski, oraz biały i niebieski,
 - light/dark mode,
-- wybór języka strony (ENG/PL),
 - menu - podświetlanie kafelków przy najechaniu myszką,
-- menu - mechanika menu - umiejscowienie dół ekranu, w trakcie scrollowania przyczepia się góry ekranu,
-- działanie headeru - lewa strona (div) chowa się, gdy scrolluje się myszką (płynne przejście, wrażenie stania w miejscu - zaprezentowanie całej okazałości header basic),
-- działanie galerii portfolio - efekt lekko poruszających się prostokątnych kafelków przy najechaniu myszką - środkowy jest na większym widoku, następne coraz bardziej 
-w tyle po bokach, możliwość przesuwania lewo prawo, możliwośc powiększenia i wyświetlenia szczegółów klikniętego,
+- menu - mechanika menu - umiejscowienie góra ekranu,
+- działanie headeru - lewa strona (aside) chowa się, gdy scrolluje się myszką (płynne przejście, wrażenie stania w miejscu - zaprezentowanie całej okazałości header basic i wtedy normalny scroll po stronie),
+- galeria portfolio - na wzór repo z GH - w ramce: nazwa projektu, krótki opis, technologie użyte oraz po najechaniu myszką na projekt: powiekszenie okna, tło wizualizacja projektu, a na tym logo GH(link do repo projektu) i link do wersji demo,
 - formularz kontaktowy (JS),
-- liczniki zrobionych projektów, zapał - ukazany w wersji wifi, poznanych technologii, nieprzespanych nocy, projektów oraz możliwość ich edytowania przez administratora,
-- wyświetlanie CV (klik z menu) w oknie pop-out z możliwością zamknięcia X,
-- CV download button - możliwość pobrania CV w wersji PDF,
+- liczniki zrobionych projektów, chęć do nauki - ukazana jako pełna bateria, nieprzespanych nocy, skończonych projektów oraz godzin spedzonych przy kodzie,
+- CV - resume - otwarcie w nowym oknie jako pdf + pobranie,
+- efekt pojawiania się elementów w sekcjach przy scrollu - delikatny slide z boku lub nabieranie wyrazistości(z pikselozy do klarownego widoku)
+- sekcja obrazki technologii - po najechaniu myszką nabierają koloru?
 
 
 Zdjęcia do zrobienia:
-- kukająca zza monitora (header),
+- kukająca zza monitora lub klawiatury (header),
 - profil rozmyty tył głowy LUB odwrócone krzesło, oparta łokciem o oparcie, a ręka podtrzymuje głowę + uśmiech (about me),
 - skrzżowane ręce, lekki uśmiech LUB popiersie i lekki uśmiech (CV)
 
@@ -36,7 +35,7 @@ Sprawdzanie konkurencji - ubersuggest.com
 
 
 Oczy Frontendu, dusza Javascriptu, wyrafinowana w Tailwind i Bootstrap. Moje marzenie?
-Zjednoczyć oba światy, być full-stackową siłą. Kiedy backend króluje nad danymi, ja nadam mu życie i charakter.
+Zjednoczyć oba światy frontendu i backendu, aby stać się full-stackową siłą. Kiedy backendem króluje nad danymi, już rozmyślam jak nadać mu życie i charakter.
 Gotowa na ekscytującą podróż przez kod, by stworzyć kompletne dzieła. Nie tylko umiejętności, ale i pasja napędzają mnie, by osiągnąć ten cel.
 
 
