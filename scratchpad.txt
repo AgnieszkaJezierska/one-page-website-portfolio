@@ -1,0 +1,48 @@
+
+
+Co do zrobienia:
+- cała budowa HTML (menu - home, portfolio, CV, blog, contact, język, dark/light mode) note: pamiętać o ikonkach portali społecznościowych(facebook, github, linkedin, mail),
+- CSS rozmieszczenie i wizualizacja - kolorystyka strony: czarny i musztardowy, oraz biały i musztardowy (może zamiast musztardy jasny niebieski??? lub pomarańcz???),
+- light/dark mode,
+- wybór języka strony (ENG/PL),
+- menu - podświetlanie kafelków przy najechaniu myszką,
+- menu - mechanika menu - umiejscowienie dół ekranu, w trakcie scrollowania przyczepia się góry ekranu,
+- działanie headeru - lewa strona (div) chowa się, gdy scrolluje się myszką (płynne przejście, wrażenie stania w miejscu - zaprezentowanie całej okazałości header basic),
+- działanie galerii portfolio - efekt lekko poruszających się prostokątnych kafelków przy najechaniu myszką - środkowy jest na większym widoku, następne coraz bardziej 
+w tyle po bokach, możliwość przesuwania lewo prawo, możliwośc powiększenia i wyświetlenia szczegółów klikniętego,
+- formularz kontaktowy (JS),
+- liczniki zrobionych projektów, zapał - ukazany w wersji wifi, poznanych technologii, nieprzespanych nocy, projektów oraz możliwość ich edytowania przez administratora,
+- wyświetlanie CV (klik z menu) w oknie pop-out z możliwością zamknięcia X,
+- CV download button - możliwość pobrania CV w wersji PDF,
+
+
+Zdjęcia do zrobienia:
+- kukająca zza monitora (header),
+- profil rozmyty tył głowy LUB odwrócone krzesło, oparta łokciem o oparcie, a ręka podtrzymuje głowę + uśmiech (about me),
+- skrzżowane ręce, lekki uśmiech LUB popiersie i lekki uśmiech (CV)
+
+
+Co pomaga w pozycjonowaniu strony:
+- YT,
+- blog,
+- 1000 wyrazów + słowa kluczowe,
+- wizualnie zachęcające do zwiedzania (ludzie są wzrokowcami - mało czytają),
+- h2-h4 oraz pogrubianie fraz kluczowych dla wzrokowców,
+- 'lekkie' obrazki (aby strona długo się nie ładowała) + "alt" do każdego zdjęcia,
+- szybkość ładowania strony ma znaczenie
+
+Sprawdzanie konkurencji - ubersuggest.com
+
+
+
+Oczy Frontendu, dusza Javascriptu, wyrafinowana w Tailwind i Bootstrap. Moje marzenie?
+Zjednoczyć oba światy, być full-stackową siłą. Kiedy backend króluje nad danymi, ja nadam mu życie i charakter.
+Gotowa na ekscytującą podróż przez kod, by stworzyć kompletne dzieła. Nie tylko umiejętności, ale i pasja napędzają mnie, by osiągnąć ten cel.
+
+
+Jestem jak superbohater JavaScriptu, odziany w Tailwind i Bootstrap. Frontend to moje kung-fu, ale czas wybrać się na trening z backendem i stać się full-stackową 
+ninja developerką. Backend jest jak magiczne jutsu, którego tajniki chcę poznać. Gotuję się do tego wyzwania z pasją i niepohamowanym humorem. Kiedy backend krzyczy "ERROR", 
+ja odpowiadam "Try-catch!" Gotowa na przygody w kodzie, które przynoszą pełnię kreatywnego szaleństwa i szczyptę śmiechu. Let's code the world! 💻🚀😄
+
+
+Larry Page: "Jeśli nie robi się żadnych błędów, to znaczy, że się nie próbuje niczego nowego."
