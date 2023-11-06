@@ -22,13 +22,16 @@
 </head>
 
 <body>
+    <!--TODO efekt na przyciski w menu: podświetlone tło w kwadracie (wzór starego biosa)-->
     <nav class="nav">
         <a class="nav-brand" href="#home"> &lt;jeska/&gt; </a>
+        <!--TODO burger icon pojawia się na mobile i tabletach-->
         <div class="burger-btn">
             <div class="burger-btn__box">
                 <div class="burger-btn__bars"></div>
             </div>
         </div>
+        <!--TODO nav normalnie w pasku, przechodzi do burgera na mobile i tablety-->
         <div class="nav-links">
             <a class="nav-link" href="#about">about()</a>
             <a class="nav-link" href="#projects">projects()</a>
@@ -38,6 +41,7 @@
             <!--TODO wymyśleć jak wizualnie ma się to prezentować - żarówka on/off? toggle on/off? inaczej?-->
             <img src="./img/menu/bulb-filled.png" alt="Dark/light switch" class="toggle toggle-off">
         </div>
+        <!--TODO social media pojawiają się w menu tylko na mobile i tabletach (kiedy burger)-->
         <div class="nav-media">
             <hr>
             <a href="#"><img src="./img/social/brand-facebook.png" alt="Facebook"></a>
@@ -48,6 +52,7 @@
     </nav>
 
 
+    <!--TODO aside na widoku na PC, schowany przy mobile i tabletach-->
     <aside class="aside">
         <div class="aside-news">
             <div class="aside-news__box">
@@ -85,19 +90,21 @@
     </aside>
 
 
+    <!--TODO na PC w trakcie scrolla w dół aside chowa się a header rozwija do lewej krawędzi-->
     <header>
         <div class="hero hero-img" id="home">
+            <div class="hero-empty"></div>
             <div class="hero-text">
                 <p>Hello there!</p>
                 <p><span>My name is Agnes and I would like to</span></p>
-                <h1 class="hero-text-move"> [ start as Frontend Developer ]</h1>
+                <h1 class="hero-text-move"> [ start as Frontend Developer ]</h1> <!--TODO efekt wpisywanego tekstu-->
                 <!-- be your employee, become Fullstack Developer, create breathtaking websites and apps!, get know more technologies -->
             </div>
             <div class="hero-shadow"></div>
         </div>
     </header>
 
-
+<!--TODO każde h2 ma efekt wpisywania i nie znika tylko już zostaje na stałe, a reszta wjeżdża z boku lub wyświetla się etapami np. po zdaniu z opóźnieniem-->
     <section class="abt-me" id="about">
         <div class="wrapper">
             <div class="abt-me__text">
@@ -105,6 +112,7 @@
                     <h2>#about</h2>
                     <div class="text-title__line"></div>
                 </div>
+                <!--TODO ustawić działanie short/long-->
                 <div class="abt-me__text--short">
                     <p>I'm like a JavaScript superhero, clad in Tailwind and Bootstrap. Frontend is my kung-fu, but it's
                         time to go for backend training and become a full-stack ninja developer. The backend is like a
@@ -114,7 +122,7 @@
                         the world! 💻🚀😄
                     </p>
                     <button class="abt-me__btn">Read more...</button>
-                    <div class="abt-me__quoter"><!--TODO dodać ciekawy cytat?-->
+                    <div class="abt-me__quoter">
                         "</span>What pushes us to try new things is not logic or reason...<br> but hope and
                         dreams, heart and the inner voice.</span>"</p>
                     </div>
@@ -144,6 +152,8 @@
         </div>
     </section>
 
+
+    <!-- TODO ustawić kolor wyszarzały tekstu, czcionka pochylona?-->
     <section class="exp">
         <div class="wrapper">
             <div class="exp-road">
@@ -166,6 +176,8 @@
     </section>
 
 
+
+    <!--TODO elementy wskakują boxami, a technologie po najechaniu nabierają koloru-->
     <section class="skills">
         <div class="wrapper">
             <div class="text-title">
@@ -188,6 +200,7 @@
                         <div class="tech-imgs"></div>
                     </div>
                 </div>
+                <!--TODO lista wjeżdża pojedyńczo-->
                 <div class="skills-boxes__soft">
                     <h3>Soft skills:</h3>
                     <ul>
@@ -204,6 +217,7 @@
     </section>
 
 
+    <!--TODO obrazek i tekst wjeżdżają osobno-->
     <section class="hobby">
         <div class="wrapper">
             <div class="text-title">
@@ -257,29 +271,32 @@
     </section>
 
 
+    <!--TODO wjechanie img i potem efekt naliczania liczb-->
     <section class="counter">
-
+        
     </section>
 
 
-    <!-- <section class="projects" id="projects">
+    <!--TODO skończyć sekcję, kiedy będą projekty?-->
+    <section class="projects" id="projects">
     <div class="wrapper">
         <div class="text-title">
             <h2>#projects</h2>
             <div class="text-title__line"></div>
         </div>
     </div>
-    </section> -->
+    </section>
 
 
-    <!-- <section class="contact" id="contact">
+    <!--TODO bez efektów wjeżdżających, zrobić tabelę-->
+    <section class="contact" id="contact">
     <div class="wrapper">
         <div class="text-title">
             <h2>#contact</h2>
             <div class="text-title__line"></div>
         </div>
     </div>
-    </section> -->
+    </section>
 
 
     <footer>
