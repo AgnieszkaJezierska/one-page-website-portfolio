@@ -29,7 +29,7 @@ body {
 }
 .burger-btn:focus {
   outline: none;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid #fff;
   border-radius: 8px;
 }
 .burger-btn:hover .burger-btn__bars::after, .burger-btn:hover .burger-btn__bars::before {
@@ -45,7 +45,7 @@ body {
   right: 0;
   height: 3px;
   content: "";
-  background-color: #cdd9e5;
+  background-color: #f2f4f7;
   transition: width 0.3s;
 }
 .burger-btn__bars {

@@ -16,7 +16,7 @@ html {
 
 body {
 	font-family: 'Chakra Petch', sans-serif;
-    background-color: $scale-gray-5;
+    background-color: $gray-5;
     font-size: 1.6rem;
 }
 
@@ -34,7 +34,7 @@ body {
 
 	&:focus {
 		outline: none;
-		border: 1px solid rgba(255, 255, 255, 0.5);
+		border: 1px solid $pure-white;
 		border-radius: 8px;
 	}
 
@@ -57,7 +57,7 @@ body {
         right: 0;
         height: 3px;
         content: '';
-        background-color: $scale-white;
+        background-color: $white;
         transition: width .3s;
 	}
 
