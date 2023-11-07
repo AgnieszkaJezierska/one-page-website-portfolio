@@ -39,7 +39,9 @@
             <a class="nav-link" href="#">resume()</a>
             <a class="nav-link" href="#contact">contact()</a>
             <!--TODO wymyśleć jak wizualnie ma się to prezentować - żarówka on/off? toggle on/off? inaczej?-->
-            <img src="./img/menu/bulb-filled.png" alt="Dark/light switch" class="toggle toggle-off">
+            <div class="nav-toggle">
+                <img src="./img/menu/bulb-filled.png" alt="Dark/light switch" class="toggle toggle-off">
+            </div>
         </div>
         <!--TODO social media pojawiają się w menu tylko na mobile i tabletach (kiedy burger)-->
         <div class="nav-media">
@@ -55,28 +57,31 @@
     <!--TODO aside na widoku na PC, schowany przy mobile i tabletach-->
     <aside class="aside">
         <div class="aside-news">
+            <div class="aside-news__title">
+                <h2>Recent articles</h2>
+            </div>
             <div class="aside-news__box">
                 <div class="aside-news__img"></div>
                 <div class="aside-news__text">
                     <h3>tytuł artykułu</h3>
-                    <hr>
                     <p><span>data wstawienia artykułu</span></p>
+                    <hr>
                 </div>
             </div>
             <div class="aside-news__box">
                 <div class="aside-news__img"></div>
                 <div class="aside-news__text">
                     <h3>tytuł artykułu</h3>
-                    <hr>
                     <p><span>data wstawienia artykułu</span></p>
+                    <hr>
                 </div>
             </div>
             <div class="aside-news__box">
                 <div class="aside-news__img"></div>
                 <div class="aside-news__text">
                     <h3>tytuł artykułu</h3>
-                    <hr>
                     <p><span>data wstawienia artykułu</span></p>
+                    <hr>
                 </div>
             </div>
         </div>
@@ -317,10 +322,10 @@
         </div>
     </section>
 
-<!--TODO media podświetlają się po najechaniu myszką-->
+    <!--TODO media podświetlają się po najechaniu myszką-->
     <footer class="footer">
         <div class="footer-text">jeska-portfolio&copy; 2024</div>
-        <div class="footer-media"> 
+        <div class="footer-media">
             <a href="#"><img src="./img/social/brand-facebook.png" alt="Facebook"></a>
             <a href="#"><img src="./img/social/brand-linkedin.png" alt="Linkedin"></a>
             <a href="#"><img src="./img/social/brand-github-filled.png" alt="Github"></a>
