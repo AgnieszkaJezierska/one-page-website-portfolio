@@ -24,7 +24,7 @@
 <body>
     <!--TODO efekt na przyciski w menu: podświetlone tło w kwadracie (wzór starego biosa)-->
     <nav class="nav">
-        <a class="nav-brand" href="#home"> &lt;jeska/&gt; </a>
+        <a class="nav-brand" href="#"> &lt;jeska/&gt; </a>
         <!--TODO burger icon pojawia się na mobile i tabletach-->
         <div class="burger-btn">
             <div class="burger-btn__box">
@@ -127,9 +127,12 @@
                         the world! 💻🚀😄
                     </p>
                     <button class="abt-me__btn">Read more...</button>
-                    <div class="abt-me__quoter">
-                        "</span>What pushes us to try new things is not logic or reason...<br> but hope and
-                        dreams, heart and the inner voice.</span>"</p>
+                    <div class="abt-me__quote">
+                        <!--cudzysłów większy niż tekst, kolor wyszarzały, czcionka pochylona-->
+                        <div class="abt-me__quote-quoter"><p>"</p></div>
+                        <div class="abt-me__quote-text"><p>What pushes us to try new things is not logic or reason...<br> but hope and
+                            dreams, heart and the inner voice.</p></div>
+                        <div class="abt-me__quote-quoter"><p>"</p></div>
                     </div>
                 </div>
                 <div class="abt-me__text--long">
@@ -143,7 +146,7 @@
                         to tackle more challenging ideas, and gradually, coding became more and more fun.
                     </p>
                     <p>Back when I was young (which feels like eons ago), I was a bit like a lost puppy in a maze of
-                        future career plans. I had no idea who I wanted to be when I grew up. I searched high and low,
+                        future career plans. I had no idea who I wanted to be when I'll grow up. I searched high and low,
                         but eventually, I stumbled upon something that truly lit a fire in me.
                     </p>
                     <p>I mean, sure, I could've been a logistician, an architect, or even a hipster artist sipping soy
@@ -158,7 +161,7 @@
     </section>
 
 
-    <!-- TODO ustawić kolor wyszarzały tekstu, czcionka pochylona?-->
+    <!-- TODO ustawić kolor wyszarzały tekstu, czcionka chakra petch? -->
     <section class="exp">
         <div class="wrapper">
             <div class="exp-road">
@@ -245,7 +248,7 @@
                         thrive on it!</p>
                 </div>
             </div>
-            <div class="hobby-box">
+            <div class="hobby-box hobby-box--left">
                 <div class="hobby-box__img"></div>
                 <div class="hobby-box__text">
                     <h3>Trekking</h3>
@@ -280,7 +283,7 @@
     <section class="counter">
         <div class="counter-item">
             <img src="./img/counter/moon-stars.png" alt="Sleepless nights">
-            <h5>sleepless nights</h5>
+            <h5>sleepless nights at coding</h5> <!--put an all-nighter at coding-->
             <p class="counter-box--numbers">113</p>
         </div>
         <div class="counter-item">
@@ -324,7 +327,7 @@
 
     <!--TODO media podświetlają się po najechaniu myszką-->
     <footer class="footer">
-        <div class="footer-text">jeska-portfolio&copy; 2024</div>
+        <div class="footer-text">jeska&copy; | 2024</div>
         <div class="footer-media">
             <a href="#"><img src="./img/social/brand-facebook.png" alt="Facebook"></a>
             <a href="#"><img src="./img/social/brand-linkedin.png" alt="Linkedin"></a>
