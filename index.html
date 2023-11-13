@@ -32,19 +32,19 @@
             </div>
         </div>
         <!--TODO nav normalnie w pasku, przechodzi do burgera na mobile i tablety-->
-        <div class="nav-links">
-            <a class="nav-link" href="#about">about()</a>
-            <a class="nav-link" href="#projects">projects()</a>
-            <a class="nav-link" href="#">blog()</a>
-            <a class="nav-link" href="#">resume()</a>
-            <a class="nav-link" href="#contact">contact()</a>
+        <div class="nav__link">
+            <a class="nav__link-item" href="#about">about()</a>
+            <a class="nav__link-item" href="#projects">projects()</a>
+            <a class="nav__link-item" href="#">blog()</a>
+            <a class="nav__link-item" href="#">resume()</a>
+            <a class="nav__link-item" href="#contact">contact()</a>
             <!--TODO wymyśleć jak wizualnie ma się to prezentować - żarówka on/off? toggle on/off? inaczej?-->
-            <div class="nav-toggle">
-                <img src="./img/menu/bulb-filled.png" alt="Dark/light switch" class="toggle toggle-off">
+            <div class="nav__link-toggle toggle toggle-off">
+                <img src="./img/menu/bulb-filled.png" alt="Dark/light switch">
             </div>
         </div>
         <!--TODO social media pojawiają się w menu tylko na mobile i tabletach (kiedy burger)-->
-        <div class="media">
+        <div class="nav__media">
             <hr>
             <a href="#"><i class="fa-brands fa-facebook" alt="Facebook"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin-in" alt="Linkedin"></i></a>
@@ -99,11 +99,15 @@
     <!--TODO tło do zrobienia przyciemnione stanowisko pracy programisty(nieco jasniej na biurku), 01 zza monitora-->
     <header>
         <div class="hero hero-img">
-            <div class="hero-text">
-                <p>Hello there!</p>
-                <p><span>My name is Agnes and I would like to</span></p>
-                <h1 class="hero-text-move"> [ start as Frontend Developer ]</h1> <!--TODO efekt wpisywanego tekstu-->
-                <!-- be your employee, become Fullstack Developer, create breathtaking websites and apps!, get know more technologies -->
+            <div class="hero__box">
+                <div class="hero__box-empty"></div>
+                <div class="hero__box-text">
+                    <p>Hello there!</p>
+                    <p><span>My name is Agnes and I would like to</span></p>
+                    <h1 class="hero-text-move"> [ start as Frontend Developer ]</h1>
+                    <!--TODO efekt wpisywanego tekstu-->
+                    <!-- be your employee, become Fullstack Developer, create breathtaking websites and apps!, get know more technologies -->
+                </div>
             </div>
             <div class="hero-shadow"></div>
         </div>
@@ -129,10 +133,16 @@
                     <button class="abt-me__btn">Read more...</button>
                     <div class="abt-me__quote">
                         <!--cudzysłów większy niż tekst, kolor wyszarzały, czcionka pochylona-->
-                        <div class="abt-me__quote-quoter"><p>"</p></div>
-                        <div class="abt-me__quote-text"><p>What pushes us to try new things is not logic or reason...<br> but hope and
-                            dreams, heart and the inner voice.</p></div>
-                        <div class="abt-me__quote-quoter"><p>"</p></div>
+                        <div class="abt-me__quote-quoter">
+                            <p>"</p>
+                        </div>
+                        <div class="abt-me__quote-text">
+                            <p>What pushes us to try new things is not logic or reason...<br> but hope and
+                                dreams, heart and the inner voice.</p>
+                        </div>
+                        <div class="abt-me__quote-quoter">
+                            <p>"</p>
+                        </div>
                     </div>
                 </div>
                 <div class="abt-me__text--long">
@@ -146,7 +156,8 @@
                         to tackle more challenging ideas, and gradually, coding became more and more fun.
                     </p>
                     <p>Back when I was young (which feels like eons ago), I was a bit like a lost puppy in a maze of
-                        future career plans. I had no idea who I wanted to be when I'll grow up. I searched high and low,
+                        future career plans. I had no idea who I wanted to be when I'll grow up. I searched high and
+                        low,
                         but eventually, I stumbled upon something that truly lit a fire in me.
                     </p>
                     <p>I mean, sure, I could've been a logistician, an architect, or even a hipster artist sipping soy
