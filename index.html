@@ -43,14 +43,6 @@
                 <img src="./img/menu/bulb-filled.png" alt="Dark/light switch">
             </div>
         </div>
-        <!--TODO social media pojawiają się w menu tylko na mobile i tabletach (kiedy burger)-->
-        <div class="nav__media">
-            <hr>
-            <a href="#"><i class="fa-brands fa-facebook" alt="Facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in" alt="Linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-github" alt="Github"></i></a>
-            <a href="#"><i class="fa-regular fa-envelope circle" alt="Gmail"></i></a>
-        </div>
     </nav>
 
 
@@ -85,13 +77,6 @@
                 </div>
             </div>
         </div>
-        <div class="aside-media">
-            <hr>
-            <a href="#"><img src="./img/social/brand-facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="./img/social/brand-linkedin.png" alt="Linkedin"></a>
-            <a href="#"><img src="./img/social/brand-github-filled.png" alt="Github"></a>
-            <a href="#"><img src="./img/social/brand-gmail.png" alt="Gmail"></a>
-        </div>
     </aside>
 
 
@@ -101,12 +86,22 @@
         <div class="hero hero-img">
             <div class="hero__box">
                 <div class="hero__box-empty"></div>
-                <div class="hero__box-text">
-                    <p>Hello there!</p>
-                    <p><span>My name is Agnes and I would like to</span></p>
-                    <h1 class="hero-text-move"> [ start as Frontend Developer ]</h1>
-                    <!--TODO efekt wpisywanego tekstu-->
-                    <!-- be your employee, become Fullstack Developer, create breathtaking websites and apps!, get know more technologies -->
+                <div class="hero__box-full">
+                    <div class="hero__box-full-text">
+                        <p>Hello there!</p>
+                        <p><span>My name is Agnes and I would like to</span></p>
+                        <h1 class="hero-text-move"> [ start as Frontend Developer ]</h1>
+                        <!--TODO efekt wpisywanego tekstu-->
+                        <!-- be your employee, become Fullstack Developer, create breathtaking websites and apps!, get know more technologies -->
+                    </div>
+                    <!--TODO media umieścić pod tekstem prezentacyjnym-->
+                    <div class="hero__box-full-media">
+                        <hr>
+                        <a href="#"><img src="./img/social/brand-facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="./img/social/brand-linkedin.png" alt="Linkedin"></a>
+                        <a href="#"><img src="./img/social/brand-github-filled.png" alt="Github"></a>
+                        <a href="#"><img src="./img/social/brand-gmail.png" alt="Gmail"></a>
+                    </div>
                 </div>
             </div>
             <div class="hero-shadow"></div>
@@ -338,15 +333,15 @@
 
     <!--TODO media podświetlają się po najechaniu myszką-->
     <footer class="footer">
+        <div class="footer__copyright">
+            <hr>
+            <p>jeska&copy; | 2024</p>
+        </div>
         <div class="footer__media">
             <a href="#"><i class="fa-brands fa-facebook" alt="Facebook"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin-in media--circle" alt="Linkedin"></i></a>
             <a href="#"><i class="fa-brands fa-github" alt="Github"></i></a>
             <a href="#"><i class="fa-regular fa-envelope media--circle" alt="Gmail"></i></a>
-        </div>
-        <div class="footer__copyright">
-            <hr>
-            <p>jeska&copy; | 2024</p>
         </div>
     </footer>
 
