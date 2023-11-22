@@ -292,7 +292,8 @@
             <p class="counter-box--numbers">113</p>
         </div>
         <div class="counter-item">
-            <img src="./img/counter/battery-4.png" alt="Energy power"> <!--TODO pusta bateria i dac before efekt ładowania się kawy na full-->
+            <img src="./img/counter/battery-4.png" alt="Energy power">
+            <!--TODO pusta bateria i dac before efekt ładowania się kawy na full-->
             <h5>zeal energy</h5>
             <p class="counter-box--letters">FULLY MOTIVATED</p>
         </div>
@@ -320,12 +321,40 @@
     </section>
 
 
-    <!--TODO bez efektów wjeżdżających, zrobić tabelę-->
+    <!--bez efektów wjeżdżających-->
     <section class="contact" id="contact">
         <div class="wrapper">
             <div class="text-title">
                 <h2>#contact</h2>
                 <div class="text-title__line"></div>
+            </div>
+            <div class="contact__boxes">
+                <div class="contact__info">
+                    <a href="mailto:xsaminai@gmail.com"><i class="fa-solid fa-envelope"></i> xsaminai@gmail.com</a>
+                    <div class="contact__info-socialmedia">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-github"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <button class="contact__info-btn btn-special-animation btn"><i
+                            class="fa-regular fa-floppy-disk"></i>
+                        myResume()</button>
+                </div>
+                <!--TODO formularz do zrobienia CSS i JS-->
+                <form class="contact__form">
+                    <div class="contact__form-top">
+                        <label for="name" class="contact__form-label">Imię i nazwisko:</label>
+                        <input type="text" class="contact__form-input" id="name">
+
+                        <label for="email" class="contact__form-label">Adres e-mail:</label>
+                        <input type="text" class="contact__form-input" id="email">
+                    </div>
+
+                    <label for="msg" class="contact__form-label"> Wiadomość:</label>
+                    <textarea id="msg" class="contact__form-textarea"></textarea>
+                    <button type="submit" class="contact__form-btn btn-special-animation btn">Wyślij</button>
+                </form>
             </div>
         </div>
     </section>
