@@ -14,8 +14,8 @@
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3a9bce90f4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
     <!--css-->
     <link rel="stylesheet" href="./css/main.css">
     <title>Jeska Portfolio</title>
@@ -35,18 +35,15 @@
         <div class="nav__link">
             <a class="nav__link-item" href="#about">about()</a>
             <a class="nav__link-item" href="#projects">projects()</a>
-            <a class="nav__link-item" href="#">blog()</a>
-            <a class="nav__link-item" href="#">resume()</a>
+            <a class="nav__link-item" target="_blank" href="#">blog()</a>
+            <a class="nav__link-item" target="_blank" href="#">resume()</a>
             <a class="nav__link-item" href="#contact">contact()</a>
-            <!--TODO wymyśleć jak wizualnie ma się to prezentować - żarówka on/off? toggle on/off? inaczej?-->
-            <div class="nav__link-toggle toggle toggle-off">
-                <img src="./img/menu/bulb-filled.png" alt="Dark/light switch">
-            </div>
         </div>
     </nav>
 
 
     <!--TODO aside na widoku na PC, schowany przy mobile i tabletach-->
+    <!--URUCHOMIĆ ASIDE JAK BĘDZIE GOTOWY BLOG - NIE WCZEŚNIEJ!-->
     <aside class="aside">
         <div class="aside-news">
             <div class="aside-news__title">
@@ -85,7 +82,6 @@
     <header>
         <div class="hero hero-img">
             <div class="hero__box">
-                <div class="hero__box-empty"></div>
                 <div class="hero__box-full">
                     <div class="hero__box-full-text">
                         <p>Hello there!</p>
@@ -97,10 +93,10 @@
                     <!--TODO media umieścić pod tekstem prezentacyjnym-->
                     <div class="hero__box-full-media">
                         <hr>
-                        <a href="#"><img src="./img/social/brand-facebook.png" alt="Facebook"></a>
-                        <a href="#"><img src="./img/social/brand-linkedin.png" alt="Linkedin"></a>
-                        <a href="#"><img src="./img/social/brand-github-filled.png" alt="Github"></a>
-                        <a href="#"><img src="./img/social/brand-gmail.png" alt="Gmail"></a>
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-github"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
                     </div>
                 </div>
             </div>
@@ -321,7 +317,7 @@
     </section>
 
 
-<!--TODO między projektami a kontaktem dodać jakąś treść zachęcającą do współpracy???-->
+    <!--TODO między projektami a kontaktem dodać jakąś treść zachęcającą do współpracy???-->
 
 
     <!--bez efektów wjeżdżających-->
@@ -363,12 +359,17 @@
         </div>
     </section>
 
-    
+
     <footer class="footer">
         <hr>
-        <p class="footer__copyright">Copyright &copy; <span class="footer__year"></span> | <!--wszelkie prawa zastrzeżone po ang--></p>
+        <p class="footer__copyright">Copyright &copy; <span class="footer__year"></span> |
+            <!--TODO wszelkie prawa zastrzeżone po ang--></p>
     </footer>
 
+
+
+    <script src="https://kit.fontawesome.com/3a9bce90f4.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
