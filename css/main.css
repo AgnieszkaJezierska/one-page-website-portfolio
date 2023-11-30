@@ -59,6 +59,12 @@
   font-style: italic;
   font-display: swap;
 }
+@font-face {
+  font-family: "reey_norm";
+  src: url("../fonts/reey-regular-webfont.woff2") format("woff2"), url("../fonts/reey-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 *,
 *::after,
 *::before {
