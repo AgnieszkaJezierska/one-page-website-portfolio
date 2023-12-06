@@ -1,6 +1,6 @@
 @use 'colors' as *;
 @use 'fonts';
-
+@use 'animations';
 
 *,
 *::after,
@@ -17,8 +17,9 @@ html {
 
 body {
 	font-family: 'chakra_400_norm', sans-serif;
-    background-color: $gray-5;
-    font-size: 1.6rem;
+	background-color: $gray-9;
+	color: $gray-2;
+	font-size: 1.6rem;
 }
 
 .wrapper {
@@ -26,7 +27,6 @@ body {
 	width: 100%;
 	max-width: 1200px;
 }
-
 
 //NAV
 .burger-btn {
@@ -46,7 +46,8 @@ body {
 	}
 
 	&:hover {
-		.burger-btn__bars::after, .burger-btn__bars::before {
+		.burger-btn__bars::after,
+		.burger-btn__bars::before {
 			width: 100%;
 		}
 	}
@@ -60,16 +61,16 @@ body {
 	&__bars,
 	&__bars::after,
 	&__bars::before {
-        position: absolute;
-        right: 0;
-        height: 3px;
-        content: '';
-        background-color: $white;
-        transition: width .3s;
+		position: absolute;
+		right: 0;
+		height: 3px;
+		content: '';
+		background-color: $white;
+		transition: width 0.3s;
 	}
 
 	&__bars {
-		width: 75%;
+		width: 80%;
 
 		&::after {
 			top: 13px;
@@ -78,8 +79,31 @@ body {
 
 		&::before {
 			top: 27px;
-			width:85%;
-			transition-delay: .1s;
+			width: 65%;
+			transition-delay: 0.1s;
 		}
 	}
 }
+
+.nav {
+	&-brand,
+	&__link {
+		display: none;
+	}
+}
+
+//HEADER
+.header {
+	position: relative;
+	height: 100vh;
+
+	&__box {
+		&-extra {
+			display: none;
+		}
+	}
+}
+
+// background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+// background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+// background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);

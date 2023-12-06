@@ -13,7 +13,7 @@
     <link rel="icon" href="./img/web-icon.png" type="website icon">
     <!--css-->
     <link rel="stylesheet" href="./css/main.css">
-    <title>Jeska Portfolio</title>
+    <title>&lt;jeska/&gt; Portfolio</title>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
 
     <!--TODO aside na widoku na PC, schowany przy mobile i tabletach-->
     <!--URUCHOMIĆ ASIDE JAK BĘDZIE GOTOWY BLOG - NIE WCZEŚNIEJ!-->
-    <aside class="aside">
+    <!-- <aside class="aside">
         <div class="aside-news">
             <div class="aside-news__title">
                 <h2>Recent articles</h2>
@@ -69,31 +69,64 @@
                 </div>
             </div>
         </div>
-    </aside>
+    </aside> -->
 
 
     <!--TODO na PC w trakcie scrolla w dół aside chowa się a header rozwija do lewej krawędzi-->
-    <!--TODO tło do zrobienia przyciemnione stanowisko pracy programisty(nieco jasniej na biurku), 01 zza monitora-->
-    <header>
-        <div class="hero hero-img">
-            <div class="hero__box">
-                <div class="hero__box-full">
-                    <div class="hero__box-full-text">
-                        <p>Hello there!</p>
-                        <p><span>My name is Agnes and I would like to</span></p>
-                        <h1 class="hero-text-move"> [ start as Frontend Developer ]</h1>
-                        <!--TODO efekt wpisywanego tekstu-->
-                        <!-- be your employee, become Fullstack Developer, create breathtaking websites and apps!, get know more technologies -->
-                    </div>
-                    <!--TODO media umieścić pod tekstem prezentacyjnym-->
-                    <div class="hero__box-full-media">
-                        <hr>
-                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                        <a href=""><i class="fa-brands fa-square-github"></i></a>
-                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
-                    </div>
+    <header class="header">
+        <div class="header__box">
+            <div class="header__box-bar">
+                <div class="header__box-bar__page-name">
+                    <p class="page-name">README.md</p>
                 </div>
+                <div class="header__box-bar__options">
+                    <span class="bar-option"></span>
+                    <img class="bar-option" src="img/icons/square.svg" alt="">
+                    <img class="bar-option" src="img/icons/x.svg" alt="">
+                </div>
+            </div>
+            <div class="header__box-page">
+                <div class="header__box-page-text">
+                    <p>Hello there!</p>
+                    <p><span>My name is Agnes and I would like to</span></p>
+                    <h1 class="header__box-page-text-title">[ <span class="typing__text-animation">start as Frontend Developer</span><span class="typing__blinking-cursor"></span> ]</h1>
+                    <!--TODO efekt wpisywanego tekstu-->
+                    <!-- be your employee, become Fullstack Developer, create breathtaking websites and apps!, get know more technologies -->
+                </div>
+                <div class="header__box-page-socialmedia">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="header__box header__box-extra">
+            <div class="header__box-bar">
+                <div class="header__box-bar__page-name">
+                    <p class="page-name">VSCode - index.html</p>
+                </div>
+                <div class="header__box-bar__options">
+                    <span class="bar-option"></span>
+                    <img class="bar-option" src="img/icons/square.svg" alt="">
+                    <img class="bar-option" src="img/icons/x.svg" alt="">
+                </div>
+            </div>
+            <div class="header__box-page">
+                <img class="header__box-page-img" src="img/header-vsc.jpg" alt="">
+            </div>
+        </div>
+        <div class="header__box header__box-extra">
+            <div class="header__box-bar">
+                <div class="header__box-bar__page-name">
+                    <img src="img/icons/terminal.svg" alt="Terminal icon">
+                    <p class="page-name">Terminal</p>
+                </div>
+                <div class="header__box-bar__options">
+                    <span class="bar-option"></span>
+                    <img class="bar-option" src="img/icons/square.svg" alt="">
+                    <img class="bar-option" src="img/icons/x.svg" alt="">
+                </div>
+            </div>
+            <div class="header__box-page">
+                <img class="header__box-page-img" src="img/header-terminal.png" alt="Open window with terminal">
             </div>
         </div>
     </header>
@@ -382,14 +415,13 @@
 
 
     <footer class="footer">
-        <hr>
-        <p class="footer__copyright">Copyright &copy; <span class="footer__year"></span>. All right reserved. | jeska.pl
+        <p class="footer__copyright">Copyright &copy; <span class="footer__year"></span> | All rights reserved |
+            jeska.pl
         </p>
     </footer>
 
 
 
-    <script src="https://kit.fontawesome.com/3a9bce90f4.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 
