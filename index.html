@@ -19,20 +19,13 @@
 <body>
     <!--TODO efekt na przyciski w menu: podświetlone tło w kwadracie (wzór starego biosa)-->
     <nav class="nav">
-        <a class="nav-brand" href="#"> &lt;jeska/&gt; </a>
-        <!--TODO burger icon pojawia się na mobile i tabletach-->
-        <div class="burger-btn">
-            <div class="burger-btn__box">
-                <div class="burger-btn__bars"></div>
-            </div>
-        </div>
-        <!--TODO nav normalnie w pasku, przechodzi do burgera na mobile i tablety-->
-        <div class="nav__link">
-            <a class="nav__link-item" href="#about">about()</a>
-            <a class="nav__link-item" href="#projects">projects()</a>
-            <a class="nav__link-item" target="_blank" href="#">blog()</a>
-            <a class="nav__link-item" target="_blank" href="#">resume()</a>
-            <a class="nav__link-item" href="#contact">contact()</a>
+        <a class="nav__brand" href="#"> &lt;jeska/&gt; </a>
+        <div class="nav__mobile nav__desktop">
+            <a class="nav__item" href="#about">about( )</a>
+            <a class="nav__item" href="#projects">projects( )</a>
+            <a class="nav__item" target="_blank" href="#">blog( )</a>
+            <a class="nav__item" target="_blank" href="#">resume( )</a>
+            <a class="nav__item" href="#contact">contact( )</a>
         </div>
     </nav>
 
@@ -74,6 +67,11 @@
 
     <!--TODO na PC w trakcie scrolla w dół aside chowa się a header rozwija do lewej krawędzi-->
     <header class="header">
+        <div class="burger-btn">
+            <div class="burger-btn__box">
+                <div class="burger-btn__bars"></div>
+            </div>
+        </div>
         <div class="header__box">
             <div class="header__box-bar">
                 <div class="header__box-bar__page-name">
