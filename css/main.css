@@ -189,11 +189,54 @@ body {
 
 @media (min-width: 768px) {
   .nav__item {
-    font-size: 3.2rem;
+    font-size: 3.4rem;
   }
 }
 @media (min-width: 992px) {
+  .burger-btn {
+    display: none;
+  }
+  .nav {
+    justify-content: space-between;
+    height: 7vh;
+    padding: 0.5em 5em;
+    background-image: none;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    transform: translateX(0);
+  }
+  .nav__desktop {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5em;
+  }
+  .nav__brand {
+    display: block;
+    font-size: 2.8rem;
+    background-image: linear-gradient(180deg, #009efd 30%, #2af598 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-family: "chakra_700_norm";
+  }
   .nav__item {
-    font-size: 4rem;
+    font-size: 1.8rem;
+    z-index: 0;
+  }
+  .nav__item::before {
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    z-index: -1;
+    transform: none;
+    transition: height 0.3s;
+  }
+  .nav__item:hover {
+    color: #1c2128;
+  }
+  .nav__item:hover::before {
+    height: 100%;
   }
 }/*# sourceMappingURL=main.css.map */

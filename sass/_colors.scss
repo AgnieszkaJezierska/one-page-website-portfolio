@@ -1,6 +1,7 @@
 $black: #1c2128;
 $white: #f2f4f7;
 $pure-white: #fff;
+
 $gray-0: #cdd9e5;
 $gray-1: #adbac7;
 $gray-2: #909dab;
@@ -10,16 +11,10 @@ $gray-5: #545d68;
 $gray-6: #444c56;
 $gray-7: #373e47;
 $gray-8: #2d333b;
-$gray-9: #22272e;
-$blue-0: #c6e6ff;
-$blue-1: #96d0ff;
-$blue-2: #6cb6ff;
-$blue-3: #539bf5;
-$blue-4: #4184e4;
-$blue-5: #316dca;
-$blue-6: #255ab2;
-$blue-7: #1b4b91;
-$blue-8: #143d79;
-$blue-9: #0f2d5c;
 
-$black-blue-gradient: linear-gradient(to right, rgb(15, 45, 92) 0%, black 100%)
+$background: #22272e;
+
+
+$secondary-color: linear-gradient(180deg, #009efd 30%, #2af598 100%);
+
+$nav-bg: linear-gradient(to right, rgb(15, 45, 92) 0%, black 100%);

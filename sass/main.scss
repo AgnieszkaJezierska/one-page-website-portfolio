@@ -18,7 +18,7 @@ html {
 body {
 	font-family: 'chakra_400_norm', sans-serif;
 	font-size: 1.6rem;
-	background-color: $gray-9;
+	background-color: $background;
 	color: $gray-2;
 }
 
@@ -93,7 +93,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	width: 100%;
-	background-image: $black-blue-gradient;
+	background-image: $nav-bg;
 	transform: translateX(102%);
 	transition: transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
 	z-index: 100;
@@ -124,7 +124,7 @@ body {
 			height: 2px;
 			background-color: $white;
 			transform: scaleX(0);
-			transition: transform .3s;
+			transition: transform 0.3s;
 		}
 
 		&:hover::before {
@@ -149,21 +149,64 @@ body {
 // background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 // background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
 
-
 @media (min-width: 768px) {
 	.nav {
-
 		&__item {
-			font-size: 3.2rem;
+			font-size: 3.4rem;
 		}
 	}
 }
 
 @media (min-width: 992px) {
+	.burger-btn {
+		display: none;
+	}
+
 	.nav {
+		justify-content: space-between;
+		height: 7vh;
+		padding: 0.5em 5em;
+		background-image: none;
+		backdrop-filter: blur(10px);
+		transform: translateX(0);
+
+		&__desktop {
+			display: flex;
+			justify-content: space-evenly;
+			gap: 0.5em;
+		}
+
+		&__brand {
+			display: block;
+			font-size: 2.8rem;
+			background-image: $secondary-color;
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+			text-decoration: none;
+			font-family: 'chakra_700_norm';
+		}
 
 		&__item {
-			font-size: 4rem;
+			font-size: 1.8rem;
+			z-index: 0;
+
+			&::before {
+				bottom: 0;
+				left: 0;
+				height: 0;
+				width: 100%;
+				z-index: -1;
+				transform: none;
+				transition: height 0.3s;
+			}
+
+			&:hover {
+				color: $black;
+			}
+
+			&:hover::before {
+				height: 100%;
+			}
 		}
 	}
 }
