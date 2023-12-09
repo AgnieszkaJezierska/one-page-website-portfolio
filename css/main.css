@@ -156,27 +156,12 @@ body {
   display: none;
 }
 .nav__item {
-  position: relative;
   display: block;
   margin: 0.5em 0;
   padding: 0.5em 2em;
   font-size: 2.8rem;
   color: #f2f4f7;
   text-decoration: none;
-}
-.nav__item::before {
-  content: "";
-  position: absolute;
-  bottom: 5px;
-  left: 2em;
-  width: 50px;
-  height: 2px;
-  background-color: #f2f4f7;
-  transform: scaleX(0);
-  transition: transform 0.3s;
-}
-.nav__item:hover::before {
-  transform: scaleX(1);
 }
 
 .header {
@@ -221,17 +206,21 @@ body {
     font-family: "chakra_700_norm";
   }
   .nav__item {
+    position: relative;
     font-size: 1.8rem;
     z-index: 0;
   }
   .nav__item::before {
+    content: "";
+    position: absolute;
     bottom: 0;
     left: 0;
     height: 0;
     width: 100%;
-    z-index: -1;
+    background-color: #f2f4f7;
     transform: none;
     transition: height 0.3s;
+    z-index: -1;
   }
   .nav__item:hover {
     color: #1c2128;
