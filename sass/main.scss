@@ -122,15 +122,76 @@ body {
 	height: 100vh;
 
 	&__box {
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 90%;
+		border: transparent;
+
+		&-bar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0.1em 0.3em;
+			background-color: $gray-6;
+			color: $white;
+
+			&__page-name {
+				font-size: 1.5rem;
+				padding-left: 0.5em;
+			}
+
+			&__options {
+				display: flex;
+				align-items: center;
+
+				.bar-option {
+					height: 20px;
+					margin: 0 0.2em;
+				}
+
+				.bar-option:first-child {
+					position: relative;
+					top: -3px;
+					width: 18px;
+					margin-right: 0.5em;
+					border-bottom: 2px solid $white;
+				}
+			}
+		}
+
+		&-page {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			border: 2px solid $gray-6;
+			border-top: transparent;
+
+			&-text {
+				display: flex;
+				flex-direction: column;
+				margin: 1.5em;
+
+				.welcome-text {
+					margin-bottom: 1em;
+					text-align: center;
+					font-size: 1.6rem;
+				}
+
+				&-title {
+					font-size: 2.8rem;
+					text-align: center;
+				}
+			}
+		}
+
 		&-extra {
 			display: none;
 		}
 	}
 }
-
-// background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-// background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-// background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+//____________________________________________________________
 
 @media (min-width: 768px) {
 	.nav {
@@ -147,8 +208,8 @@ body {
 
 	.nav {
 		justify-content: space-between;
-		height: 7vh;
 		padding: 0.5em 5em;
+		height: 7vh;
 		background-image: none;
 		backdrop-filter: blur(10px);
 		transform: translateX(0);
@@ -161,16 +222,25 @@ body {
 
 		&__brand {
 			display: block;
-			font-size: 2.8rem;
-			background-image: $secondary-color;
+			background-image: $secondary;
 			background-clip: text;
 			-webkit-text-fill-color: transparent;
 			text-decoration: none;
-			font-family: 'chakra_700_norm';
+
+			&-logo {
+				font-size: 2.8rem;
+				font-family: 'chakra_700_norm';
+			}
+
+			&-slogan {
+				margin-left: 2em;
+				font-size: 1.5rem;
+			}
 		}
 
 		&__item {
 			position: relative;
+			padding: 0.5em 1em;
 			font-size: 1.8rem;
 			z-index: 0;
 
@@ -189,7 +259,6 @@ body {
 
 			&:hover {
 				color: $black;
-				
 			}
 
 			&:hover::before {

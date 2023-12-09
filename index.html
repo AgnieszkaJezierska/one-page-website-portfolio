@@ -17,10 +17,11 @@
 </head>
 
 <body>
-    <!--TODO efekt na przyciski w menu: podświetlone tło w kwadracie (wzór starego biosa)-->
-    <!--TODO usunąć niepotrzebne klasy? nav__mobile nav__desktop-->
     <nav class="nav">
-        <a class="nav__brand" href="#"> &lt;jeska/&gt; </a>
+        <div class="nav__brand">
+            <a class="nav__brand-logo" href="#">&lt;jeska/&gt;</a>
+            <p class="nav__brand-slogan">portfolio of Full Stack Developer</p>
+        </div>
         <div class="nav__mobile nav__desktop">
             <a class="nav__item" href="#about">about( )</a>
             <a class="nav__item" href="#projects">projects( )</a>
@@ -76,7 +77,7 @@
         <div class="header__box">
             <div class="header__box-bar">
                 <div class="header__box-bar__page-name">
-                    <p class="page-name">README.md</p>
+                    <p>README.md</p>
                 </div>
                 <div class="header__box-bar__options">
                     <span class="bar-option"></span>
@@ -86,14 +87,15 @@
             </div>
             <div class="header__box-page">
                 <div class="header__box-page-text">
-                    <p>Hello there!</p>
-                    <p><span>My name is Agnes and I would like to</span></p>
-                    <h1 class="header__box-page-text-title">[ <span class="typing__text-animation">start as Frontend Developer</span><span class="typing__blinking-cursor"></span> ]</h1>
+                    <p class="welcome-text">Hello there!</p>
+                    <p class="welcome-text">My name is Agnes and I would like to</p>
+                    <h1 class="header__box-page-text-title">[ <span class="typing__text-animation">
+                        </span><span class="typing__blinking-cursor"></span> ]</h1>
                     <!--TODO efekt wpisywanego tekstu-->
-                    <!-- be your employee, become Fullstack Developer, create breathtaking websites and apps!, get know more technologies -->
+                    <!-- start as Frontend Developer, be your employee, become Fullstack Developer, create breathtaking websites and apps!, get know more technologies -->
                 </div>
                 <div class="header__box-page-socialmedia">
-                    
+
                 </div>
             </div>
         </div>
@@ -417,6 +419,9 @@
         <p class="footer__copyright">Copyright &copy; <span class="footer__year"></span> | All rights reserved |
             jeska.pl
         </p>
+        <a class="footer__img-autors"
+            href="https://pl.freepik.com/ikona/kodowanie_2092500#fromView=search&term=code&page=2&position=24&track=ais&uuid=3c5f923b-6892-4d07-a909-342cf63f5170">Website
+            logo icon by srip</a>
     </footer>
 
 
