@@ -13,8 +13,8 @@ $gray-7: #373e47;
 $gray-8: #2d333b;
 
 $background: #22272e;
+$bg-shadow: linear-gradient(45deg, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.911));
 
 
-$secondary: linear-gradient(180deg, #2af598 0%, #239fec 100%);
-
-$nav-bg: linear-gradient(to right, rgb(50, 124, 243) 0%, rgb(65, 201, 137) 100%);
+$gradient-180deg: linear-gradient(180deg, #2af598 0%, #239fec 100%);
+$gradient-to-right: linear-gradient(to right, rgb(50, 124, 243) 0%, rgb(65, 201, 137) 100%);
