@@ -279,7 +279,8 @@ body {
 }
 .abt-me__quote {
   position: relative;
-  margin: 2em 2em;
+  padding: 2em auto;
+  margin: 4em 0;
   padding-bottom: 2em;
 }
 .abt-me__quote-text {
@@ -293,11 +294,11 @@ body {
 }
 .abt-me__quote-quoter:first-child {
   top: -0.4em;
-  left: -0.4em;
+  left: -0.1em;
 }
 .abt-me__quote-quoter:last-child {
   bottom: -0.6em;
-  right: -0.4em;
+  right: -0.1em;
 }
 .abt-me__text {
   position: relative;
@@ -356,7 +357,8 @@ body {
   padding-top: 6em;
 }
 .abt-me__img img {
-  height: 300px;
+  min-width: 250px;
+  max-width: 60%;
   filter: grayscale(1);
 }
 
@@ -377,6 +379,10 @@ body {
   }
 }
 @media (min-width: 768px) {
+  .text-title {
+    text-align: center;
+    font-size: 2rem;
+  }
   .nav__item {
     font-size: 3.4rem;
   }
@@ -391,10 +397,37 @@ body {
     max-width: 90%;
     font-size: 4rem;
   }
+  .abt-me {
+    margin: 3em;
+  }
+  .abt-me__quote {
+    max-width: 700px;
+    margin: 3em auto;
+    padding-bottom: 3em;
+  }
+  .abt-me__quote-text {
+    font-size: 3rem;
+  }
+  .abt-me__quote-quoter {
+    font-size: 12rem;
+  }
+  .abt-me__text-lines {
+    font-size: 1.8rem;
+  }
+  .abt-me__text-more-btn, .abt-me__text-less-btn {
+    font-size: 1.4rem;
+  }
+  .abt-me__text-short {
+    margin-top: 6em;
+  }
 }
 @media (min-width: 992px) {
   .burger-btn {
     display: none;
+  }
+  .text-title {
+    font-size: 2.5rem;
+    margin-top: 5em;
   }
   .nav {
     justify-content: space-between;
@@ -484,5 +517,40 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 15px;
+  }
+  .abt-me {
+    display: flex;
+    margin: 2em auto;
+    width: 100%;
+    height: 100vh;
+  }
+  .abt-me__quote-text {
+    font-size: 3.3rem;
+  }
+  .abt-me__quote-quoter {
+    font-size: 15rem;
+  }
+  .abt-me__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding: 2em;
+  }
+  .abt-me__text-lines {
+    font-size: 1.9rem;
+  }
+  .abt-me__text-more-btn, .abt-me__text-less-btn {
+    margin: 0;
+    font-weight: bold;
+    border: none;
+    font-size: 1.6rem;
+  }
+  .abt-me__text-long {
+    padding-top: 0;
+  }
+  .abt-me__img {
+    width: 50%;
+    height: auto;
   }
 }/*# sourceMappingURL=main.css.map */
