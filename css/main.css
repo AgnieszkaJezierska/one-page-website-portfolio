@@ -321,16 +321,38 @@ body {
   background: none;
   border: 1px solid #cdd9e5;
   border-radius: 1px;
-  color: #cdd9e5;
+  color: #909dab;
   cursor: pointer;
+  z-index: 5;
+}
+.abt-me__text-more-btn::before, .abt-me__text-less-btn::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  background-color: #f2f4f7;
+  transform: none;
+  transition: height 0.3s;
+  z-index: -1;
+}
+.abt-me__text-more-btn:hover, .abt-me__text-less-btn:hover {
+  color: #1c2128;
+}
+.abt-me__text-more-btn:hover::before, .abt-me__text-less-btn:hover::before {
+  height: 100%;
 }
 .abt-me__text--inactive {
   display: none;
 }
 .abt-me__img {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  width: 100%;
   padding-top: 6em;
 }
 .abt-me__img img {
