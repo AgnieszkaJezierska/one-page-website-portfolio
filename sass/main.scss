@@ -18,8 +18,8 @@ html {
 body {
 	font-family: 'chakra_400_norm', sans-serif;
 	font-size: 1.6rem;
-	background-color: $background;
-	color: $gray-2;
+	background-color: $background-dark;
+	color: $font-dark;
 }
 
 .wrapper {
@@ -93,13 +93,13 @@ body {
 	align-items: center;
 	height: 100vh;
 	width: 100%;
-	background-image: $gradient-to-right;
 	transform: translateX(102%);
-	transition: transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+	transition: transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1), background-color 0.7s;
 	z-index: 100;
 
 	&--active {
 		transform: translateX(0);
+		background-color: $background-dark;
 	}
 
 	&__brand {
@@ -111,7 +111,7 @@ body {
 		margin: 0.5em 0;
 		padding: 0.5em 2em;
 		font-size: 2.8rem;
-		color: $black;
+		color: $white;
 		text-decoration: none;
 	}
 }
@@ -287,7 +287,6 @@ body {
 		padding: 0.5em 5em;
 		height: 8vh;
 		background-image: $nav-shadow;
-		// backdrop-filter: blur(10px);
 		transform: translateX(0);
 
 		&__desktop {

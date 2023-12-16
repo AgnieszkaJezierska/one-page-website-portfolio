@@ -100,7 +100,7 @@ html {
 body {
   font-family: "chakra_400_norm", sans-serif;
   font-size: 1.6rem;
-  background-color: #22272e;
+  background-color: #222222;
   color: #909dab;
 }
 
@@ -163,13 +163,13 @@ body {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to right, rgb(50, 124, 243) 0%, rgb(65, 201, 137) 100%);
   transform: translateX(102%);
-  transition: transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+  transition: transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1), background-color 0.7s;
   z-index: 100;
 }
 .nav--active {
   transform: translateX(0);
+  background-color: #222222;
 }
 .nav__brand {
   display: none;
@@ -179,7 +179,7 @@ body {
   margin: 0.5em 0;
   padding: 0.5em 2em;
   font-size: 2.8rem;
-  color: #1c2128;
+  color: #f2f4f7;
   text-decoration: none;
 }
 
