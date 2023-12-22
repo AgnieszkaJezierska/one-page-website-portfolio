@@ -101,7 +101,7 @@ body {
   font-family: "chakra_400_norm", sans-serif;
   font-size: 1.6rem;
   background-color: #222222;
-  color: #909dab;
+  color: #adbac7;
 }
 
 .wrapper {
@@ -282,6 +282,7 @@ body {
   padding: 2em auto;
   margin: 4em 0;
   font-family: "chakra_300_italic", sans-serif;
+  color: #909dab;
 }
 .abt-me__quote-text {
   text-align: center;
@@ -322,7 +323,7 @@ body {
   background: none;
   border: 1px solid #cdd9e5;
   border-radius: 1px;
-  color: #909dab;
+  color: #adbac7;
   cursor: pointer;
   z-index: 5;
 }
@@ -369,7 +370,7 @@ body {
   height: 75vh;
   width: 100%;
   background-color: #1a1919;
-  color: #adbac7;
+  color: #909dab;
 }
 .exp-road {
   display: flex;
@@ -380,7 +381,7 @@ body {
   margin: 2em auto;
   height: 35px;
   width: 2px;
-  background-color: #adbac7;
+  background-color: #909dab;
 }
 .exp-road__text {
   font-family: "chakra_300_light", sans-serif;
@@ -409,6 +410,7 @@ body {
 }
 .skills-boxes__tech-list {
   margin: 0.7em;
+  color: #909dab;
 }
 .skills-boxes__soft {
   margin: 1em 0;
@@ -420,6 +422,7 @@ body {
   font-size: 1.7rem;
   list-style-position: inside;
   list-style-type: circle;
+  color: #909dab;
 }
 .skills-boxes__soft-list li {
   padding: 0.5em;

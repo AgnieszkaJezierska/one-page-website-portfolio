@@ -228,6 +228,7 @@ body {
 		padding: 2em auto;
 		margin: 4em 0;
 		font-family: 'chakra_300_italic', sans-serif;
+		color: $font-dark-2nd;
 
 		&-text {
 			text-align: center;
@@ -332,7 +333,7 @@ body {
 	height: 75vh;
 	width: 100%;
 	background-color: $gray-8;
-	color: $gray-1;
+	color: $font-dark-2nd;
 
 	&-road {
 		display: flex;
@@ -343,7 +344,7 @@ body {
 			margin: 2em auto;
 			height: 35px;
 			width: 2px;
-			background-color: $gray-1;
+			background-color: $font-dark-2nd;
 		}
 
 		&__text {
@@ -377,6 +378,7 @@ body {
 
 			&-list {
 				margin: 0.7em;
+				color: $font-dark-2nd;
 			}
 		}
 
@@ -389,6 +391,7 @@ body {
 				font-size: 1.7rem;
 				list-style-position: inside;
 				list-style-type: circle;
+				color: $font-dark-2nd;
 
 				li {
 					padding: 0.5em;
