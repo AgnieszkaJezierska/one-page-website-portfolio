@@ -390,6 +390,41 @@ body {
   font-size: 2rem;
 }
 
+.skills {
+  margin-top: 5em;
+}
+.skills-boxes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.skills-boxes-title {
+  padding: 1.5em 0;
+  font-size: 2rem;
+}
+.skills-boxes__tech {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2em;
+}
+.skills-boxes__tech-list {
+  margin: 0.7em;
+}
+.skills-boxes__soft {
+  margin: 1em 0;
+}
+.skills-boxes__soft-list {
+  -moz-text-align-last: center;
+       text-align-last: center;
+  padding: 0 2.5em;
+  font-size: 1.7rem;
+  list-style-position: inside;
+  list-style-type: circle;
+}
+.skills-boxes__soft-list li {
+  padding: 0.5em;
+}
+
 @media (min-width: 576px) {
   .text-title {
     font-size: 2.2rem;
