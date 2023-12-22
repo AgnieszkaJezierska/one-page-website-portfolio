@@ -105,17 +105,17 @@ body {
 }
 
 .wrapper {
-  margin: 0 auto;
+  margin: 2em auto;
   width: 100%;
   max-width: 1200px;
 }
 
 .text-title {
-  padding: 0.8em 0;
   background-image: linear-gradient(180deg, #2af598 0%, #239fec 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
   font-size: 1.7rem;
 }
 
@@ -281,7 +281,7 @@ body {
   position: relative;
   padding: 2em auto;
   margin: 4em 0;
-  padding-bottom: 2em;
+  font-family: "chakra_300_italic", sans-serif;
 }
 .abt-me__quote-text {
   text-align: center;
@@ -307,7 +307,7 @@ body {
   padding-top: 2em;
 }
 .abt-me__text-lines {
-  margin-bottom: 1em;
+  margin-top: 1em;
   line-height: 1.2em;
   letter-spacing: 0.5px;
 }
@@ -317,8 +317,8 @@ body {
 .abt-me__text-more-btn, .abt-me__text-less-btn {
   position: absolute;
   right: 0;
-  margin: 0.5em;
-  padding: 0.3em;
+  margin: 1em 0;
+  padding: 0.4em;
   background: none;
   border: 1px solid #cdd9e5;
   border-radius: 1px;
@@ -348,13 +348,12 @@ body {
   display: none;
 }
 .abt-me__img {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
-  padding-top: 6em;
+  padding: 6em 1em;
 }
 .abt-me__img img {
   min-width: 250px;
@@ -362,7 +361,39 @@ body {
   filter: grayscale(1);
 }
 
+.exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+  height: 75vh;
+  width: 100%;
+  background-color: #1a1919;
+  color: #adbac7;
+}
+.exp-road {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.exp-road__line {
+  margin: 2em auto;
+  height: 35px;
+  width: 2px;
+  background-color: #adbac7;
+}
+.exp-road__text {
+  font-family: "chakra_300_light", sans-serif;
+}
+.exp-road__text h5 {
+  padding-bottom: 0.3em;
+  font-size: 2rem;
+}
+
 @media (min-width: 576px) {
+  .text-title {
+    font-size: 2.2rem;
+  }
   .header__box-text .welcome-custom {
     font-size: 4rem;
     text-transform: none;
@@ -377,11 +408,20 @@ body {
     max-width: 90%;
     font-size: 3.5rem;
   }
+  .exp-road__text {
+    font-size: 2rem;
+  }
+  .exp-road__text h5 {
+    font-size: 3.5rem;
+  }
+  .exp-road__line {
+    height: 40px;
+    width: 3px;
+  }
 }
 @media (min-width: 768px) {
   .text-title {
-    text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .nav__item {
     font-size: 3.4rem;
@@ -419,6 +459,16 @@ body {
   }
   .abt-me__text-short {
     margin-top: 6em;
+  }
+  .exp-road__text {
+    font-size: 2.5rem;
+  }
+  .exp-road__text h5 {
+    font-size: 4rem;
+  }
+  .exp-road__line {
+    height: 50px;
+    width: 3px;
   }
 }
 @media (min-width: 992px) {
@@ -552,5 +602,16 @@ body {
   .abt-me__img {
     width: 50%;
     height: auto;
+  }
+  .exp {
+    height: 33vh;
+  }
+  .exp-road {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .exp-road__line {
+    height: 3px;
+    width: 50px;
   }
 }/*# sourceMappingURL=main.css.map */
