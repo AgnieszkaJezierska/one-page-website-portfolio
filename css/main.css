@@ -415,17 +415,16 @@ body {
 .skills-boxes__soft {
   margin: 1em 0;
 }
-.skills-boxes__soft-list {
+.skills-boxes__soft-box-list {
   -moz-text-align-last: center;
        text-align-last: center;
   padding: 0 2.5em;
   font-size: 1.7rem;
-  list-style-position: inside;
-  list-style-type: circle;
+  list-style: none;
   color: #909dab;
 }
-.skills-boxes__soft-list li {
-  padding: 0.5em;
+.skills-boxes__soft-box-list li {
+  padding: 0.6em;
 }
 
 @media (min-width: 576px) {

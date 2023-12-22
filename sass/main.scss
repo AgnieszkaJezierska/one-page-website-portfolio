@@ -385,16 +385,15 @@ body {
 		&__soft {
 			margin: 1em 0;
 
-			&-list {
+			&-box-list {
 				text-align-last: center;
 				padding: 0 2.5em;
 				font-size: 1.7rem;
-				list-style-position: inside;
-				list-style-type: circle;
+				list-style: none;
 				color: $font-dark-2nd;
 
 				li {
-					padding: 0.5em;
+					padding: 0.6em;
 				}
 			}
 		}
