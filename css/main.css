@@ -432,7 +432,7 @@ body {
 
 @media (min-width: 576px) {
   .text-title {
-    font-size: 2.2rem;
+    font-size: 2.7rem;
   }
   .header__box-text .welcome-custom {
     font-size: 4rem;
@@ -461,7 +461,7 @@ body {
 }
 @media (min-width: 768px) {
   .text-title {
-    font-size: 3rem;
+    font-size: 3.4rem;
   }
   .nav__item {
     font-size: 3.4rem;
@@ -516,8 +516,8 @@ body {
     display: none;
   }
   .text-title {
-    font-size: 2.5rem;
-    margin-top: 5em;
+    font-size: 4rem;
+    margin-top: 3em;
   }
   .nav {
     justify-content: space-between;
