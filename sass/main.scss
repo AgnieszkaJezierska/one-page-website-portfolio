@@ -367,7 +367,7 @@ body {
 }
 
 .skills {
-	padding-top: 8em;
+	padding-top: 5em;
 	width: 100%;
 
 	&-boxes {
@@ -383,7 +383,6 @@ body {
 		&__tech {
 			display: flex;
 			flex-direction: column;
-			padding-bottom: 2em;
 
 			&-list {
 				padding-bottom: 3em;
@@ -410,6 +409,7 @@ body {
 		}
 
 		&__soft {
+			padding-bottom: 2em;
 			margin: 1em 0;
 
 			&-box-list {

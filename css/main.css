@@ -399,7 +399,7 @@ body {
 }
 
 .skills {
-  padding-top: 8em;
+  padding-top: 5em;
   width: 100%;
 }
 .skills-boxes {
@@ -414,7 +414,6 @@ body {
 .skills-boxes__tech {
   display: flex;
   flex-direction: column;
-  padding-bottom: 2em;
 }
 .skills-boxes__tech-list {
   padding-bottom: 3em;
@@ -436,6 +435,7 @@ body {
   filter: grayscale(0.8);
 }
 .skills-boxes__soft {
+  padding-bottom: 2em;
   margin: 1em 0;
 }
 .skills-boxes__soft-box-list {
