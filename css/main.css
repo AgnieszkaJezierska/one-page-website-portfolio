@@ -1,6 +1,6 @@
 @keyframes blinking-cursor {
   from {
-    border-right: 1px solid #909dab;
+    border-right: 1px solid #adbac7;
   }
   to {
     border-right: 1px solid transparent;

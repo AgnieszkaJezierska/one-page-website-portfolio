@@ -2,7 +2,7 @@
 
 @keyframes blinking-cursor {
     from {
-        border-right: 1px solid $gray-2;
+        border-right: 1px solid $font-dark;
     }
     to {
         border-right: 1px solid transparent;
