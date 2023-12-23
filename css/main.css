@@ -116,7 +116,7 @@ body {
           background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
 }
 
 .burger-btn {
@@ -277,6 +277,9 @@ body {
 .abt-me {
   margin: 1.5em;
 }
+.abt-me .text-title {
+  margin-left: -0.5em;
+}
 .abt-me__quote {
   position: relative;
   padding: 2em auto;
@@ -400,7 +403,7 @@ body {
   text-align: center;
 }
 .skills-boxes-title {
-  padding: 1.5em 0;
+  padding: 1.5em;
   font-size: 2rem;
 }
 .skills-boxes__tech {
