@@ -336,8 +336,12 @@ body {
 	padding: 0 2em;
 	height: 75vh;
 	width: 100%;
-	background-color: $gray-8;
-	color: $font-dark-2nd;
+	background-image: $bg-shadow, url('../img/bg-exp-small.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: $font-dark;
+	filter: grayscale(0.8);
 
 	&-road {
 		display: flex;
@@ -705,6 +709,7 @@ body {
 
 	.exp {
 		height: 33vh;
+		background-image: $bg-shadow, url('../img/bg-exp-big.jpg');
 
 		&-road {
 			flex-direction: row;

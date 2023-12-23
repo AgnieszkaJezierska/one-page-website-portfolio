@@ -372,8 +372,12 @@ body {
   padding: 0 2em;
   height: 75vh;
   width: 100%;
-  background-color: #1a1919;
-  color: #909dab;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.911)), url("../img/bg-exp-small.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #adbac7;
+  filter: grayscale(0.8);
 }
 .exp-road {
   display: flex;
@@ -645,6 +649,7 @@ body {
   }
   .exp {
     height: 33vh;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.911)), url("../img/bg-exp-big.jpg");
   }
   .exp-road {
     flex-direction: row;
