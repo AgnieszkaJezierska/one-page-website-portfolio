@@ -426,6 +426,52 @@ body {
 	}
 }
 
+.hobby {
+	padding-top: 2em;
+	margin: 1.5em;
+
+	&__box {
+		display: flex;
+		flex-direction: column;
+
+		&-item {
+			display: flex;
+			flex-direction: column;
+			margin-top: 3em;
+
+			&__img {
+				position: relative;
+				display: block;
+				margin: 0 auto;
+				height: 8em;
+				width: 8em;
+				border: 2px solid $white;
+				border-radius: 50%;
+				opacity: 0.7;
+
+				img {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					height: 65%;
+					filter: invert(0.9);
+				}
+			}
+
+			&__text {
+				margin-top: 1em;
+
+				h3 {
+					text-align: center;
+					margin-bottom: 0.5em;
+					font-size: 2.2rem;
+				}
+			}
+		}
+	}
+}
+
 //____________________________________________________________
 
 @media (min-width: 576px) {
@@ -567,6 +613,38 @@ body {
 
 	.skills {
 		padding-top: 1em;
+	}
+
+	.hobby {
+		&__box {
+			display: flex;
+			flex-direction: column;
+
+			&-item {
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+
+				&__img {
+					height: 200px;
+					width: 200px;
+				}
+
+				&__text {
+					width: 60%;
+					font-size: 1.8rem;
+
+					h3 {
+						font-size: 2.6rem;
+					}
+				}
+
+				&--left {
+					flex-direction: row-reverse;
+					padding: 2em 0;
+				}
+			}
+		}
 	}
 }
 
@@ -813,6 +891,27 @@ body {
 				&-list {
 					text-align: left;
 					list-style: circle;
+				}
+			}
+		}
+	}
+
+	.hobby {
+		&__box {
+
+			&-item {
+
+				&__img {
+					height: 250px;
+					width: 250px;
+				}
+
+				&__text {
+					width: 65%;
+
+					h3 {
+						font-size: 2.8rem;
+					}
 				}
 			}
 		}
