@@ -535,6 +535,9 @@ body {
     height: 50px;
     width: 3px;
   }
+  .skills {
+    padding-top: 1em;
+  }
 }
 @media (min-width: 992px) {
   .burger-btn {
@@ -687,10 +690,11 @@ body {
     scale: 1.1;
   }
   .skills {
+    padding-top: 2em;
     max-width: 1200px;
   }
   .skills-boxes-title {
-    padding-top: 4em;
+    padding-top: 3em;
     font-size: 2.8rem;
   }
   .skills-boxes__tech {

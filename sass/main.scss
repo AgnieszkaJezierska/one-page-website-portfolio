@@ -564,6 +564,10 @@ body {
 			width: 3px;
 		}
 	}
+
+	.skills {
+		padding-top: 1em;
+	}
 }
 
 @media (min-width: 992px) {
@@ -758,10 +762,11 @@ body {
 	}
 
 	.skills {
+		padding-top: 2em;
 		max-width: 1200px;
 		&-boxes {
 			&-title {
-				padding-top: 4em;
+				padding-top: 3em;
 				font-size: 2.8rem;
 			}
 
