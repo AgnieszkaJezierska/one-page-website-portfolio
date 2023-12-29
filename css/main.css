@@ -408,7 +408,7 @@ body {
   text-align: center;
 }
 .skills-boxes-title {
-  padding-top: 1.5em;
+  padding-top: 3em;
   font-size: 2.2rem;
 }
 .skills-boxes__tech {
@@ -690,6 +690,7 @@ body {
     max-width: 1200px;
   }
   .skills-boxes-title {
+    padding-top: 4em;
     font-size: 2.8rem;
   }
   .skills-boxes__tech {
