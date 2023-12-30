@@ -21,3 +21,9 @@
         transform: scale(1);
     }
 }
+
+@keyframes text-reveal {
+    to {
+        background-size: 100% 100%;
+    }
+}
