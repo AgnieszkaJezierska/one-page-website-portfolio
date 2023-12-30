@@ -593,10 +593,10 @@ body {
   }
   .hobby__box-item__text {
     width: 60%;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
   .hobby__box-item__text h3 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
   }
   .hobby__box-item--left {
     flex-direction: row-reverse;
