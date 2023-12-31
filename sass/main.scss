@@ -128,10 +128,17 @@ body {
 .header {
 	position: relative;
 	height: 100vh;
-	background-image: $bg-shadow, url('../img/bg-small.jpg');
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
+
+	&__img {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		background-image: $bg-shadow, url('../img/bg-small.jpg');
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
 
 	&__box {
 		position: relative;
@@ -233,22 +240,10 @@ body {
 		margin: 4em 0;
 		color: hsl(0 0% 100% / 0.2);
 		font-family: 'chakra_300_italic', sans-serif;
-		
+
 		&-text {
 			text-align: center;
 			font-size: 2.5rem;
-			
-			span {
-				background-image: linear-gradient(90deg, $white, $white);
-				background-clip: text;
-				background-repeat: no-repeat;
-				background-size: 0% 100%;
-				animation: text-reveal linear forwards;
-				animation-timeline: view(y);
-				animation-range-start: cover 5vh;
-				animation-range-end: cover 45vh;
-				
-			}
 		}
 
 		&-quoter {
@@ -484,6 +479,35 @@ body {
 }
 
 //____________________________________________________________
+
+@media (prefers-reduced-motion: no-preference) {
+
+	.header__box {
+		&-text,
+		&-socialmedia {
+			animation: fade-out linear;
+			animation-timeline: view(y);
+			animation-range: exit -200px;
+		}
+	}
+
+	.abt-me {
+		&__quote {
+			&-text {
+				span {
+					background-image: linear-gradient(90deg, $white, $white);
+					background-clip: text;
+					background-repeat: no-repeat;
+					background-size: 0% 100%;
+					animation: text-reveal linear forwards;
+					animation-timeline: view(y);
+					animation-range-start: cover 5vh;
+					animation-range-end: cover 45vh;
+				}
+			}
+		}
+	}
+}
 
 @media (min-width: 576px) {
 	.text-title {
