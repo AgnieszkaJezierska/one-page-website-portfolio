@@ -407,7 +407,7 @@ body {
 				flex-wrap: wrap;
 
 				img {
-					height: 5em;
+					height: 4em;
 					padding: 0.5em;
 					filter: grayscale(0.8);
 				}
@@ -648,6 +648,12 @@ body {
 
 	.skills {
 		padding-top: 1em;
+
+		&-boxes__tech-imgs {
+			img {
+				height: 5em;
+			}
+		}
 	}
 
 	.hobby {
