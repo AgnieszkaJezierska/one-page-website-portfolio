@@ -121,7 +121,7 @@ body {
 }
 
 .text-title {
-  background-image: linear-gradient(180deg, #2af598 0%, #239fec 100%);
+  background-image: linear-gradient(180deg, #f5d02a 0%, #d64f10 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -230,7 +230,7 @@ body {
   font-size: 2.5rem;
   font-family: "chakra_700_norm", sans-serif;
   text-transform: uppercase;
-  background-image: linear-gradient(180deg, #2af598 0%, #239fec 100%);
+  background-image: linear-gradient(180deg, #f5d02a 0%, #d64f10 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -392,7 +392,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   color: #cdd9e5;
-  filter: grayscale(0.8);
+  filter: grayscale(0.6);
 }
 .exp-road {
   display: flex;
@@ -501,6 +501,10 @@ body {
   text-align: center;
   margin-bottom: 0.5em;
   font-size: 2.2rem;
+}
+
+.counter {
+  display: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -638,6 +642,44 @@ body {
     flex-direction: row-reverse;
     padding: 2em 0;
   }
+  .counter {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5em 0;
+    margin: 20vh 0;
+  }
+  .counter-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.911)), url("../img/bg-counter.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -5;
+    filter: grayscale(0.6);
+  }
+  .counter-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .counter-item p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .counter-item h5 {
+    margin: 1em;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+  }
+  .counter-item img {
+    height: 4em;
+    filter: invert(0.8);
+  }
 }
 @media (min-width: 992px) {
   .burger-btn {
@@ -661,7 +703,7 @@ body {
   }
   .nav__brand {
     display: block;
-    background-image: linear-gradient(180deg, #2af598 0%, #239fec 100%);
+    background-image: linear-gradient(180deg, #f5d02a 0%, #d64f10 100%);
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -841,5 +883,14 @@ body {
   }
   .hobby__box-item__text h3 {
     font-size: 2.8rem;
+  }
+  .counter-item p {
+    font-size: 2.2rem;
+  }
+  .counter-item h5 {
+    font-size: 1.6rem;
+  }
+  .counter-item img {
+    height: 4.5em;
   }
 }/*# sourceMappingURL=main.css.map */
