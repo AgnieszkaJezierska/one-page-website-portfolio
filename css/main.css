@@ -503,6 +503,10 @@ body {
   margin-bottom: 0.5em;
   font-size: 2.2rem;
 }
+.hobby__box-item__text p {
+  line-height: 1.1;
+  font-size: 1.8rem;
+}
 
 .counter {
   display: none;
@@ -638,6 +642,9 @@ body {
   }
   .hobby__box-item__text h3 {
     font-size: 2.5rem;
+  }
+  .hobby__box-item__text p {
+    font-size: 2rem;
   }
   .hobby__box-item--left {
     flex-direction: row-reverse;
