@@ -121,7 +121,7 @@ body {
 }
 
 .text-title {
-  background-image: linear-gradient(180deg, #f5d02a 0%, #d64f10 100%);
+  background-image: linear-gradient(180deg, #f5d02a 0%, #9c6060 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -230,7 +230,7 @@ body {
   font-size: 2.5rem;
   font-family: "chakra_700_norm", sans-serif;
   text-transform: uppercase;
-  background-image: linear-gradient(180deg, #f5d02a 0%, #d64f10 100%);
+  background-image: linear-gradient(180deg, #f5d02a 0%, #9c6060 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -719,7 +719,7 @@ body {
   }
   .nav__brand {
     display: block;
-    background-image: linear-gradient(180deg, #f5d02a 0%, #d64f10 100%);
+    background-image: linear-gradient(180deg, #f5d02a 0%, #9c6060 100%);
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
