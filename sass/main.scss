@@ -336,6 +336,7 @@ body {
 }
 
 .exp {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -343,27 +344,35 @@ body {
 	margin: 5em 0;
 	height: 75vh;
 	width: 100%;
-	background-image: $bg-shadow, url('../img/bg-exp-small.jpg');
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
 	color: #cdd9e5;
-	filter: grayscale(0.6);
+
+	&-bg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-image: $bg-shadow, url('../img/bg-exp-small.jpg');
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		filter: sepia(0.8);
+	}
 
 	&-road {
 		display: flex;
 		flex-direction: column;
 		text-align: center;
-
+		
 		&__line {
 			margin: 2em auto;
 			height: 35px;
 			width: 2px;
 			background-color: $font-dark-2nd;
+			z-index: 5;
 		}
-
+		
 		&__text {
 			font-family: 'chakra_300_light', sans-serif;
+			z-index: 5;
 
 			h5 {
 				padding-bottom: 0.3em;
@@ -708,7 +717,7 @@ body {
 		align-items: center;
 		padding: 5em 0;
 		margin: 20vh 0;
-		
+
 		&-bg {
 			position: absolute;
 			height: 100%;
@@ -1014,7 +1023,6 @@ body {
 	}
 
 	.counter {
-
 		&-item {
 			p {
 				font-size: 2.2rem;
