@@ -937,10 +937,11 @@ body {
 			}
 
 			&__text {
-				transition: scale 0.3s;
+				transition: scale 0.3s, color 0.5s;
 
 				&:hover {
 					scale: 1.1;
+					color: #d6c66d;
 				}
 			}
 		}
@@ -1024,6 +1025,12 @@ body {
 
 	.counter {
 		&-item {
+			transition: scale 0.3s;
+
+				&:hover {
+					scale: 1.2;
+				}
+
 			p {
 				font-size: 2.2rem;
 			}

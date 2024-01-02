@@ -842,10 +842,11 @@ body {
     width: 50px;
   }
   .exp-road__text {
-    transition: scale 0.3s;
+    transition: scale 0.3s, color 0.5s;
   }
   .exp-road__text:hover {
     scale: 1.1;
+    color: #d6c66d;
   }
   .skills {
     padding-top: 2em;
@@ -899,6 +900,12 @@ body {
   }
   .hobby__box-item__text h3 {
     font-size: 2.8rem;
+  }
+  .counter-item {
+    transition: scale 0.3s;
+  }
+  .counter-item:hover {
+    scale: 1.2;
   }
   .counter-item p {
     font-size: 2.2rem;
